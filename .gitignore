@@ -1,0 +1,8 @@
+.Rproj.user
+*.Rproj
+.Rhistory
+.RData
+.DS_Store
+.Rproj.user/
+*/intermediateFiles/*
+*INTERNAL.USE*

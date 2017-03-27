@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the Helm station.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- 159-161 front shields indicator tricolor LEDs -->
+<!-- 162-164 ship damage level indicator tricolor LEDs -->
+<!-- 165-167 rear shields indicator tricolor LEDs -->
+<!-- 168 red alert single channel red light -->
+<!-- 169-171 shields set -->
+<!-- 172-175 warp 1-4 -->
+<!-- 176-177 docking/docked indicators -->
+<!-- 178-181 buttons for stop, center, reverse, dock -->
+
+<!-- -->
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+
+  			<!-- ******************************************************************* -->
+			<!-- Shields block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_SHIELDS_ON" continuous="yes">
+
+    <!-- blue shields indicator light is on -->
+
+    <timeblock mseconds="2000">
+     	<setvalue index="170" value="255" change="0"/>
+    </timeblock>
+
+  </event>	
+  
+  
+  
+  			<!-- ******************************************************************* -->
+			<!-- Motion and Docking status -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+
+    <!-- green docked light on -->
+
+    <timeblock mseconds="2000">
+     	<setvalue index="177" value="255" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes" if="!COMPLETELY_DOCKED">
+
+    <!-- white light high level pulse -->
+
+    <timeblock mseconds="500">
+     	<setvalue index="176" value="245" change="-200"/>
+    </timeblock>
+	<timeblock mseconds="500">
+     	<setvalue index="176" value="145" change="200"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes" if="COMPLETELY_DOCKED">
+
+    <!-- white light high level pulse -->
+
+    <timeblock mseconds="500">
+     	<setvalue index="176" value="50" change="-200"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="IMPULSE_1" continuous="yes">
+
+    <!-- stop light goes from dim to full bright -->
+
+    <timeblock mseconds="500">
+     	<setvalue index="178" value="255" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="ITEM_COLLECTED">
+
+    <!-- tractor beam and dock button fancy blink, with amber leading a rise and fall, 3x -->
+
+    <timeblock mseconds="200">
+     	<setvalue index="176" value="0" change="1500"/>
+		<setvalue index="177" value="0" change="0"/>
+    </timeblock>
+	<timeblock mseconds="200">
+     	<setvalue index="176" value="255" change="-1500"/>
+		<setvalue index="177" value="0" change="1500"/>
+    </timeblock>
+	<timeblock mseconds="200">
+		<setvalue index="176" value="0" change="0"/>
+		<setvalue index="177" value="255" change="-1500"/>
+    </timeblock>
+	
+	<timeblock mseconds="200">
+     	<setvalue index="176" value="0" change="1500"/>
+		<setvalue index="177" value="0" change="0"/>
+    </timeblock>
+	<timeblock mseconds="200">
+     	<setvalue index="176" value="255" change="-1500"/>
+		<setvalue index="177" value="0" change="1500"/>
+    </timeblock>
+	<timeblock mseconds="200">
+		<setvalue index="176" value="0" change="0"/>
+		<setvalue index="177" value="255" change="-1500"/>
+    </timeblock>
+	
+	<timeblock mseconds="200">
+     	<setvalue index="176" value="0" change="1500"/>
+		<setvalue index="177" value="0" change="0"/>
+    </timeblock>
+	<timeblock mseconds="200">
+     	<setvalue index="176" value="255" change="-1500"/>
+		<setvalue index="177" value="0" change="1500"/>
+    </timeblock>
+	<timeblock mseconds="200">
+		<setvalue index="176" value="0" change="0"/>
+		<setvalue index="177" value="255" change="-1500"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="HELM_IN_REVERSE" continuous="yes">
+
+    <!-- reverse light with increasing intensity, nearly-off, full bright, all in a rotation of about .8 second. -->
+
+    <timeblock mseconds="500">
+     	<setvalue index="180" value="0" change="400"/>
+    </timeblock>
+	<timeblock mseconds="100">
+     	<setvalue index="180" value="50" change="0"/>
+    </timeblock>
+	<timeblock mseconds="200">
+     	<setvalue index="180" value="255" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  
+    		<!-- ******************************************************************* -->
+			<!-- Warp Drive Block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="WARP_1" continuous="yes">
+
+    <!-- warp button pulses slowest -->
+
+    <timeblock mseconds="1000">
+     	<setvalue index="172" value="240" change="-200"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="40" change="200"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="WARP_2" continuous="yes">
+
+    <!-- warp button pulses fast -->
+
+    <timeblock mseconds="800">
+     	<setvalue index="173" value="240" change="-200"/>
+    </timeblock>
+	<timeblock mseconds="800">
+     	<setvalue index="173" value="40" change="200"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="WARP_3" continuous="yes">
+
+    <!-- warp button pulses faster -->
+
+    <timeblock mseconds="500">
+     	<setvalue index="174" value="240" change="-200"/>
+    </timeblock>
+	<timeblock mseconds="500">
+     	<setvalue index="174" value="40" change="200"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="WARP_4" continuous="yes">
+
+    <!-- warp button pulses fastest -->
+
+    <timeblock mseconds="200">
+     	<setvalue index="175" value="240" change="-200"/>
+    </timeblock>
+	<timeblock mseconds="200">
+     	<setvalue index="175" value="40" change="200"/>
+    </timeblock>
+
+  </event>
+  
+  
+    		<!-- ******************************************************************* -->
+			<!-- Jump Drive Block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="JUMP_INITIATED">
+
+    <!-- warp buttons cound up then down based on 8 seconds for jump wait -->
+	
+	<!-- count up 4 seconds, left to right-->
+    <timeblock mseconds="1000">
+     	<setvalue index="172" value="30" change="150"/>
+		<setvalue index="173" value="30" change="0"/>
+		<setvalue index="174" value="30" change="0"/>
+		<setvalue index="175" value="30" change="0"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="180" change="0"/>
+		<setvalue index="173" value="30" change="150"/>
+		<setvalue index="174" value="30" change="0"/>
+		<setvalue index="175" value="30" change="0"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="180" change="0"/>
+		<setvalue index="173" value="180" change="0"/>
+		<setvalue index="174" value="30" change="150"/>
+		<setvalue index="175" value="30" change="0"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="180" change="0"/>
+		<setvalue index="173" value="180" change="0"/>
+		<setvalue index="174" value="180" change="0"/>
+		<setvalue index="175" value="30" change="150"/>
+    </timeblock>
+	<!-- count down 4 seconds, right to left-->
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="180" change="60"/>
+		<setvalue index="173" value="180" change="60"/>
+		<setvalue index="174" value="180" change="60"/>
+		<setvalue index="175" value="180" change="60"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="255" change="0"/>
+		<setvalue index="173" value="255" change="0"/>
+		<setvalue index="174" value="255" change="0"/>
+		<setvalue index="175" value="0" change="0"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="255" change="0"/>
+		<setvalue index="173" value="255" change="0"/>
+		<setvalue index="174" value="0" change="0"/>
+		<setvalue index="175" value="0" change="0"/>
+    </timeblock>
+	<timeblock mseconds="1000">
+     	<setvalue index="172" value="255" change="0"/>
+		<setvalue index="173" value="0" change="0"/>
+		<setvalue index="174" value="0" change="0"/>
+		<setvalue index="175" value="0" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="JUMP_FIZZLED">
+
+    <!-- zig-zag dimming warp lights, shifting down from 240, to 130, to 20 -->
+	
+	<!-- zig to the left -->
+    <timeblock mseconds="150">
+     	<setvalue index="172" value="240" change="0"/>
+		<setvalue index="173" value="240" change="0"/>
+		<setvalue index="174" value="240" change="0"/>
+		<setvalue index="175" value="240" change="-733"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="240" change="0"/>
+		<setvalue index="173" value="240" change="0"/>
+		<setvalue index="174" value="240" change="-733"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="240" change="0"/>
+		<setvalue index="173" value="240" change="-733"/>
+		<setvalue index="174" value="130" change="0"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="240" change="-733"/>
+		<setvalue index="173" value="130" change="0"/>
+		<setvalue index="174" value="130" change="0"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	
+	<!-- zag to the right -->
+    <timeblock mseconds="150">
+     	<setvalue index="172" value="130" change="-733"/>
+		<setvalue index="173" value="130" change="0"/>
+		<setvalue index="174" value="130" change="0"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="20" change="0"/>
+		<setvalue index="173" value="130" change="-733"/>
+		<setvalue index="174" value="130" change="0"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="20" change="0"/>
+		<setvalue index="173" value="20" change="0"/>
+		<setvalue index="174" value="130" change="-733"/>
+		<setvalue index="175" value="130" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="20" change="0"/>
+		<setvalue index="173" value="20" change="0"/>
+		<setvalue index="174" value="20" change="0"/>
+		<setvalue index="175" value="130" change="-733"/>
+    </timeblock>
+	
+	<!-- and whipe out the left -->
+    <timeblock mseconds="150">
+     	<setvalue index="172" value="20" change="-733"/>
+		<setvalue index="173" value="20" change="0"/>
+		<setvalue index="174" value="20" change="0"/>
+		<setvalue index="175" value="20" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="0" change="0"/>
+		<setvalue index="173" value="20" change="-733"/>
+		<setvalue index="174" value="20" change="0"/>
+		<setvalue index="175" value="20" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="0" change="0"/>
+		<setvalue index="173" value="0" change="0"/>
+		<setvalue index="174" value="20" change="-733"/>
+		<setvalue index="175" value="20" change="0"/>
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="172" value="0" change="0"/>
+		<setvalue index="173" value="0" change="0"/>
+		<setvalue index="174" value="0" change="0"/>
+		<setvalue index="175" value="20" change="-733"/>
+    </timeblock>
+
+  </event>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

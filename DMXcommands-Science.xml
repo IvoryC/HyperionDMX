@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the Science station.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- 189-191 front shields indicator tricolor LEDs -->
+<!-- 192-194 ship damage level indicator tricolor LEDs -->
+<!-- 195-197 rear shields indicator tricolor LEDs -->
+<!-- 198 red alert single channel red light -->
+<!-- 199-200 zoom buttons -->
+<!-- 201-104 pan buttons -->
+<!-- 205 scan -->
+<!-- 206-207 fighters status indicators -->
+
+<!-- -->
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+ 
+  			<!-- ******************************************************************* -->
+			<!-- Fighter Status Block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="ALL_FIGHTERS_DOCKED" continuous="yes">
+
+    <!-- green light on, amber off -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="206" value="255" change="0"/>	<!-- green indicator -->
+		<setvalue index="207" value="0" change="0"/>	<!-- red indicator -->
+
+    </timeblock>
+
+  </event>
+  
+    <!-- ********************************************************************************************* -->
+  <event type="NORMAL_CONDITION_1" continuous="yes" if="!ALL_FIGHTERS_DOCKED">
+
+    <!-- green light off, amber on -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="206" value="0" change="0"/>	<!-- green indicator -->
+		<setvalue index="207" value="255" change="0"/>	<!-- red indicator -->
+
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="FIGHTER_DOCKED">
+
+    <!-- green light flicker 4x -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="206" value="255" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="0" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="255" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="0" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="255" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="0" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="255" change="0"/>	<!-- green indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="206" value="0" change="0"/>	<!-- green indicator -->
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="FIGHTER_LAUNCHED">
+
+    <!-- amber light flicker 4x -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="207" value="255" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="0" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="255" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="0" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="255" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="0" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="255" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	<timeblock mseconds="300">
+     	<setvalue index="207" value="0" change="0"/>	<!-- amber indicator -->
+    </timeblock>
+	
+</event>
+ 
+ 
+ 
+	<!-- ********************************************************************************************* -->
+	<!-- Scan Block -->
+	<!-- ********************************************************************************************* -->
+
+  <!-- ********************************************************************************************* -->
+  <event type="SCAN_IN_PROGRESS" continuous="yes">
+
+    <!-- pulsing green scan button while scan in progress -->
+
+    <timeblock mseconds="1000">
+     	<setvalue index="205" value="255" change="-200"/>	<!-- green value of scan button -->
+    </timeblock>
+    <timeblock mseconds="1000">
+     	<setvalue index="205" value="55" change="200"/>	<!-- green value of scan button -->
+    </timeblock>
+  </event>	
+ 
+ 
+ 
+
+
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

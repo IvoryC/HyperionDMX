@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the communicatinos station.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- The channels used here are generics to be copied and then the channels shoudl be replaced using find-all -->
+<!-- 99-101 front shields indicator tricolor LEDs -->
+<!-- 102-104 ship damage level indicator tricolor LEDs -->
+<!-- 105-107 rear shields indicator tricolor LEDs -->
+<!-- 108 red alert single channel red light -->
+<!-- 111-118 red alert single channel red light -->
+<!-- -->
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+  
+			<!-- ******************************************************************* -->
+			<!-- Transmissions Block -->
+			<!-- ******************************************************************* -->  
+  
+  <!-- ********************************************************************************************* -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+
+    <!-- pulsing green light on the base indicator -->
+
+    <timeblock mseconds="2000">
+     	<setvalue index="118" value="200" change="-90"/>	<!-- green value of station indicator -->
+    </timeblock>
+    <timeblock mseconds="2000">
+     	<setvalue index="118" value="0" change="90"/>	<!-- green value of station indicator -->
+    </timeblock>
+	
+  </event>	
+  
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI0">
+
+    <!-- flickering amber light -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="113" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="113" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	    <timeblock mseconds="300">
+     	<setvalue index="113" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="113" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	    <timeblock mseconds="300">
+     	<setvalue index="113" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="113" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	    <timeblock mseconds="300">
+     	<setvalue index="113" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="113" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+  </event>	
+  
+  
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI3">
+
+    <!-- depressing red light, dims for 1.5 sec, repeats for 6 sec -->
+
+    <timeblock mseconds="1500">
+     	<setvalue index="117" value="255" change="-380"/>	<!-- red base light -->
+    </timeblock>
+    <timeblock mseconds="1500">
+     	<setvalue index="117" value="255" change="-380"/>	<!-- red base light -->
+    </timeblock>
+	<timeblock mseconds="1500">
+     	<setvalue index="117" value="255" change="-380"/>	<!-- red base light -->
+    </timeblock>
+	<timeblock mseconds="1500">
+     	<setvalue index="117" value="255" change="-380"/>	<!-- red base light -->
+    </timeblock>
+	
+  </event>	
+  
+ 
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI4" if="!COMPLETELY_DOCKED">
+
+    <!-- red flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="115" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="115" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="115" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="115" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="115" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="115" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="115" value="255" change="0"/>	<!-- amber value of enemy transmission -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="115" value="0" change="0"/>	<!-- enemy transmission -->
+    </timeblock>
+
+  </event>	
+  
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI5">
+
+    <!-- green flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="118" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="118" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="118" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="118" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="118" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="118" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="118" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="118" value="0" change="0"/>
+    </timeblock>
+
+  </event>
+  
+    <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI6">
+
+    <!-- green flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="116" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="116" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="116" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="116" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="116" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="116" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="116" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="116" value="0" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI7">
+
+    <!-- blue missions light flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="114" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="114" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="114" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="114" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="114" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="114" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="114" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="114" value="0" change="0"/>
+    </timeblock>
+
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="INCOMING_COMMUNICATION_PRI8">
+
+    <!-- blue outgoing message light flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="112" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="112" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="112" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="112" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="112" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="112" value="0" change="0"/>
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="112" value="255" change="0"/>	
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="112" value="0" change="0"/>
+    </timeblock>
+
+  </event>
+  
+    
+  
+
+
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

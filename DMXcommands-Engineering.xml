@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the Engineering station.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- The channels used here are generics to be copied and then the channels shoudl be replaced using find-all -->
+<!-- 129-131 front shields indicator tricolor LEDs -->
+<!-- 132-134 ship damage level indicator tricolor LEDs -->
+<!-- 135-137 rear shields indicator tricolor LEDs -->
+<!-- 138 red alert single channel red light -->
+<!-- 139-145 power level indicators -->
+<!-- 146 reset all power levels button -->
+<!-- 147 reset all coolant button -->
+
+<!-- -->
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+
+  			<!-- ******************************************************************* -->
+			<!-- Energy level indicator block -->
+			<!-- ******************************************************************* -->
+			
+<!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_LOW">
+
+    <!-- energy not yet low  -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="139" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="140" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="141" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="142" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="143" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="144" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="145" value="50" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="146" value="255" change="0"/>	<!-- energy not yet low -->
+		<setvalue index="147" value="255" change="0"/>	<!-- energy not yet low -->
+
+    </timeblock>
+ 
+  </event>
+
+  <!-- ********************************************************************************************* -->
+    <event type="ENERGY_LOW" continuous="yes">
+
+    <!-- energy low, lowest light blinks  -->
+
+    <timeblock mseconds="500">
+
+     	<setvalue index="139" value="255" change="0"/>	<!-- energy not yet low -->
+
+    </timeblock>
+	<timeblock mseconds="500">
+
+     	<setvalue index="139" value="0" change="0"/>	<!-- energy not yet low -->
+
+    </timeblock>
+ 
+  </event>	
+
+<!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_LOW">
+
+    <!-- energy not yet low  -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="139" value="255" change="0"/>	<!-- energy not yet low -->
+
+    </timeblock>
+ 
+  </event>	
+  
+ <!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_20">
+
+    <!-- energy 40 percent  -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="140" value="255" change="0"/>	<!-- power 20 percent indicator -->
+
+    </timeblock>
+ 
+  </event>
+
+ <!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_40">
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="141" value="255" change="0"/>	<!-- power 40 percent indicator -->
+
+    </timeblock>
+ 
+  </event>
+
+ <!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_60">
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="142" value="255" change="0"/>	<!-- power 60 percent indicator -->
+
+    </timeblock>
+ 
+  </event>
+
+ <!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_80">
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="143" value="255" change="0"/>	<!-- power 80 percent indicator -->
+
+    </timeblock>
+ 
+  </event>
+
+ <!-- ********************************************************************************************* -->
+    <event type="NORMAL_CONDITION_1" continuous="yes" if="!ENERGY_100">
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="144" value="255" change="0"/>	<!-- power 100 percent indicator -->
+
+    </timeblock>
+ 
+  </event>
+  
+ <!-- ********************************************************************************************* -->
+    <event type="COMPLETELY_DOCKED" continuous="yes">
+
+    <!-- energy being filled, blue light pulses  -->
+
+    <timeblock mseconds="400">
+     	<setvalue index="145" value="245" change="-500"/>	
+    </timeblock>
+	<timeblock mseconds="400">
+     	<setvalue index="145" value="45" change="500"/>	
+    </timeblock>
+ 
+  </event>  
+  
+  
+
+  
+    		<!-- ******************************************************************* -->
+			<!-- Engineering Flicker stuff block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="DAMCON_CASUALTY">
+
+    <!-- every other light (odds) flickers -->
+
+    <timeblock mseconds="300">
+     	<setvalue index="139" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="0" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="139" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="255" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="139" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="0" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="139" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="255" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="139" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="0" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="0" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="139" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="141" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="143" value="255" change="0"/>	<!-- odd energy indicators -->
+		<setvalue index="145" value="255" change="0"/>	<!-- odd energy indicators -->
+    </timeblock>
+	
+
+  </event>	
+  
+  <!-- ********************************************************************************************* -->
+  <event type="JUST_KILLED_DAMCON_MEMBER">
+
+    <!-- every other light (evens) flickers -->
+
+	<timeblock mseconds="300">
+     	<setvalue index="140" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="0" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="140" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="255" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="140" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="0" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="140" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="255" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+	
+	<timeblock mseconds="300">
+     	<setvalue index="140" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="0" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="0" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+    <timeblock mseconds="300">
+     	<setvalue index="140" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="142" value="255" change="0"/>	<!-- even energy indicators -->
+		<setvalue index="144" value="255" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+	
+  </event>
+  
+  
+  <!-- ********************************************************************************************* -->
+  <event type="SYSTEM_OVERHEATING" continuous="yes">
+
+    <!-- every other light (evens) flickers -->
+
+	<timeblock mseconds="200">
+     	<setvalue index="147" value="0" change="0"/>	<!-- even energy indicators -->
+
+    </timeblock>
+    <timeblock mseconds="200">
+     	<setvalue index="147" value="255" change="0"/>	<!-- even energy indicators -->
+    </timeblock>
+	
+  </event>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the Room Ambiance.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- 0-3 Status indicator can-lights at the front of the room -->
+<!-- 4-7 Ambiance can lights at the back of the room -->
+<!-- 8-10 Front screen vertical bars (attached to Odin screen) -->
+<!-- -->
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+  
+  
+  
+			<!-- ********************************************************************************************* -->
+			<!-- Can Lights Block -->
+			<!-- ********************************************************************************************* -->
+    
+  
+  
+  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_SHIELDS_ON" continuous="yes">
+
+    <!-- steady blue light on the can lights Flanking the screen-->
+	<timeblock mseconds="1000">
+
+   	<setvalue index="0" value="127" change="0"/>    <!-- Intensity value of first 4 Ch Can Light set -->
+     	<setvalue index="1" value="0" change="0"/>	<!-- Red value of first 4 Ch Can Light set -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of first 4 Ch Can Light set -->
+	<setvalue index="3" value="200" change="0"/>	<!-- Blue value of first 4 Ch Can Light set -->
+
+    </timeblock>
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes">
+
+    <!-- steady yellow light on the can lights Flanking the screen-->
+    <timeblock mseconds="1000">
+
+   	<setvalue index="0" value="120" change="0"/>    <!-- Intensity value of first 4 Ch Can Light set -->
+     	<setvalue index="1" value="200" change="0"/>	<!-- Red value of first 4 Ch Can Light set -->
+     	<setvalue index="2" value="250" change="0"/>	<!-- Green value of first 4 Ch Can Light set -->
+	<setvalue index="3" value="0" change="0"/>	<!-- Blue value of first 4 Ch Can Light set -->
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+
+    <!-- steady green light on the can lights Flanking the screen-->
+   <timeblock mseconds="1000">
+
+   	<setvalue index="0" value="127" change="0"/>    <!-- Intensity value of first 4 Ch Can Light set -->
+     	<setvalue index="1" value="0" change="0"/>	<!-- Red value of first 4 Ch Can Light set -->
+     	<setvalue index="2" value="200" change="0"/>	<!-- Green value of first 4 Ch Can Light set -->
+	<setvalue index="3" value="0" change="0"/>	<!-- Blue value of first 4 Ch Can Light set -->
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="RED_ALERT" continuous="yes">
+
+<!-- Pulsing Red light on Room Ambiance Lights-->
+
+    <timeblock mseconds="2000">
+
+   	<setvalue index="4" value="127" change="0"/>    <!-- Intensity value of rear 4 Ch Can Light set -->
+     	<setvalue index="5" value="200" change="-90"/>	<!-- Red value of rear 4 Ch Can Light set -->
+     	<setvalue index="6" value="0" change="0"/>	<!-- Green value of rear 4 Ch Can Light set -->
+	<setvalue index="7" value="0" change="0"/>	<!-- Blue value of rear 4 Ch Can Light set -->
+      
+
+    </timeblock>
+    <timeblock mseconds="2000">
+  	
+	<setvalue index="4" value="127" change="0"/>    <!-- Intensity value of rear 4 Ch Can Light set -->
+     	<setvalue index="5" value="0" change="90"/>	<!-- Red value of rear 4 Ch Can Light set -->
+     	<setvalue index="6" value="0" change="0"/>	<!-- Green value of rear 4 Ch Can Light set -->
+	<setvalue index="7" value="0" change="0"/>	<!-- Blue value of rear 4 Ch Can Light set -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_20" continuous="yes">
+    <!-- flicker the light of the first light box -->
+    <timeblock mseconds="60">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="600">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="450">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="4501">
+    </timeblock>
+
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_40" continuous="yes">
+    <!-- flicker the light of the first light box -->
+    <timeblock mseconds="60">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="200">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="550">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="4501">
+    </timeblock>
+
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_60" continuous="yes">
+    <!-- flicker the light of the first light box -->
+    <timeblock mseconds="60">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="733">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="1450">
+    </timeblock>
+    <timeblock mseconds="81">
+     	<setvalue index="0" value="1" change="0"/>      <!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="1" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+    <timeblock mseconds="1001">
+    </timeblock>
+
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="SOMETHING_HITS_PLAYER">
+
+    <!-- flicker the light of the first light box -->
+  <timeblock mseconds="200">
+	<setvalue index="0" value="200" change="0"/>      	<!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="200" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+
+  <timeblock mseconds="200">
+	<setvalue index="0" value="20" change="0"/>      	<!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="20" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+
+  <timeblock mseconds="200">
+	<setvalue index="0" value="200" change="0"/>      	<!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="200" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+
+  <timeblock mseconds="200">
+	<setvalue index="0" value="20" change="0"/>      	<!-- control value of first 4 Ch Can Light set-->
+	<setvalue index="4" value="20" change="0"/>     	<!-- control value of rear 4 Ch Can Light set -->
+    </timeblock>
+
+ 
+      
+
+  </event>
+
+
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

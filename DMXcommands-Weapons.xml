@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00" deviceProfile="Weapons">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the weapons station.  Copy this into the master DMX commands file-->
+
+
+
+<!--  DMX ID MAP --> 
+<!-- 219-221 front shields indicator tricolor LEDs -->
+<!-- 222-224 ship damage level indicator tricolor LEDs -->
+<!-- 225-227 rear shields indicator tricolor LEDs -->
+<!-- 228 red alert single channel red light -->
+<!-- 231 white shields on button -->
+<!-- 232 blue shields indicator light -->
+<!-- 233 white shields off button -->
+<!-- 234-237 red buttons for tubes 1-4 -->
+<!-- 238 red nuke-ready indicator -->
+<!-- -->
+
+
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+
+  			<!-- ******************************************************************* -->
+			<!-- Shields Block -->
+			<!-- ******************************************************************* -->
+	
+	  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_SHIELDS_ON" continuous="yes">
+
+    <!-- indicator on. -->
+
+    <timeblock mseconds="2000">
+
+		<setvalue index="232" value="255" change="0"/>	<!-- value of shields indicator -->
+
+    </timeblock>
+	  </event>
+
+	  
+	  
+	  
+
+    		<!-- ******************************************************************* -->
+			<!-- Torpedo Tube 1 block -->
+			<!-- ******************************************************************* -->
+  
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE1_EMPTY" continuous="yes">
+
+    <!-- dim light for empty tube. -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="234" value="50" change="0"/>	<!-- empty torpedo tube -->
+
+    </timeblock>
+	  </event>
+	 
+  <!-- ********************************************************************************************* -->
+  <event type="LOADING_TUBE1" continuous="yes">
+
+    <!-- pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1000">
+     	<setvalue index="234" value="10" change="100"/>	<!-- loading torpedo tube -->
+    </timeblock>
+	
+	
+	
+	  </event>	 
+
+  <!-- ********************************************************************************************* -->
+  <event type="UNLOADING_TUBE1" continuous="yes">
+
+    <!--slow pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1500">
+
+     	<setvalue index="234" value="200" change="-200"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	  
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE1_READY_TO_FIRE_EMP" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE1_READY_TO_FIRE_HOMING" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE1_READY_TO_FIRE_MINE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE1_READY_TO_FIRE_NUKE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+  <event type="TUBE1_READY_TO_FIRE_PSHOCK" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE1_FIRED_EMP">
+    <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE1_FIRED_HOMING">
+     <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+   <event type="TUBE1_FIRED_MINE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE1_FIRED_NUKE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE1_FIRED_PSHOCK">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="234" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>  
+	  
+	
+
+    		<!-- ******************************************************************* -->
+			<!-- Torpedo Tube 2 block -->
+			<!-- ******************************************************************* -->
+ 
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE2_EMPTY" continuous="yes">
+
+    <!-- dim light for empty tube. -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="235" value="50" change="0"/>	<!-- empty torpedo tube -->
+
+    </timeblock>
+	  </event>
+	 
+  <!-- ********************************************************************************************* -->
+  <event type="LOADING_TUBE2" continuous="yes">
+
+    <!-- pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1000">
+
+     	<setvalue index="235" value="10" change="100"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	 
+
+  <!-- ********************************************************************************************* -->
+  <event type="UNLOADING_TUBE2" continuous="yes">
+
+    <!--slow pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1500">
+
+     	<setvalue index="235" value="200" change="-200"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	  
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE2_READY_TO_FIRE_EMP" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE2_READY_TO_FIRE_HOMING" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE2_READY_TO_FIRE_MINE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE2_READY_TO_FIRE_NUKE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+  <event type="TUBE2_READY_TO_FIRE_PSHOCK" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE2_FIRED_EMP">
+    <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE2_FIRED_HOMING">
+     <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+   <event type="TUBE2_FIRED_MINE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE2_FIRED_NUKE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE2_FIRED_PSHOCK">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="235" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>  	
+	  
+	  
+	  
+	  
+	      	<!-- ******************************************************************* -->
+			<!-- Torpedo Tube 3 block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE3_EMPTY" continuous="yes">
+
+    <!-- dim light for empty tube. -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="236" value="50" change="0"/>	<!-- empty torpedo tube -->
+
+    </timeblock>
+	  </event>
+	 
+  <!-- ********************************************************************************************* -->
+  <event type="LOADING_TUBE3" continuous="yes">
+
+    <!-- pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1000">
+
+     	<setvalue index="236" value="10" change="100"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	 
+
+  <!-- ********************************************************************************************* -->
+  <event type="UNLOADING_TUBE3" continuous="yes">
+
+    <!--slow pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1500">
+
+     	<setvalue index="236" value="200" change="-200"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	  
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE3_READY_TO_FIRE_EMP" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE3_READY_TO_FIRE_HOMING" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE3_READY_TO_FIRE_MINE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE3_READY_TO_FIRE_NUKE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+  <event type="TUBE3_READY_TO_FIRE_PSHOCK" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE3_FIRED_EMP">
+    <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE3_FIRED_HOMING">
+     <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+   <event type="TUBE3_FIRED_MINE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE3_FIRED_NUKE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE3_FIRED_PSHOCK">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="236" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>  
+	  
+	  
+	  
+	  
+	  
+	  
+	      	<!-- ******************************************************************* -->
+			<!-- Torpedo Tube 4 block -->
+			<!-- ******************************************************************* -->
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE4_EMPTY" continuous="yes">
+
+    <!-- dim light for empty tube. -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="237" value="50" change="0"/>	<!-- empty torpedo tube -->
+
+    </timeblock>
+	  </event>
+	 
+  <!-- ********************************************************************************************* -->
+  <event type="LOADING_TUBE4" continuous="yes">
+
+    <!-- pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1000">
+
+     	<setvalue index="237" value="10" change="100"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	 
+
+  <!-- ********************************************************************************************* -->
+  <event type="UNLOADING_TUBE4" continuous="yes">
+
+    <!--slow pulsing light for laoding tube. -->
+
+    <timeblock mseconds="1500">
+
+     	<setvalue index="237" value="200" change="-200"/>	<!-- loading torpedo tube -->
+
+    </timeblock>
+	  </event>	  
+	  
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE4_READY_TO_FIRE_EMP" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE4_READY_TO_FIRE_HOMING" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE4_READY_TO_FIRE_MINE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <event type="TUBE4_READY_TO_FIRE_NUKE" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+  <event type="TUBE4_READY_TO_FIRE_PSHOCK" continuous="yes">
+    <!--tube ready. -->
+    <timeblock mseconds="2000">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="TUBE4_FIRED_EMP">
+    <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	 
+  <event type="TUBE4_FIRED_HOMING">
+     <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	  
+   <event type="TUBE4_FIRED_MINE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE4_FIRED_NUKE">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>	
+   <event type="TUBE4_FIRED_PSHOCK">
+        <!--launched! -->
+    <timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	<timeblock mseconds="150">
+     	<setvalue index="237" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>  
+	  
+	  
+	  
+	  
+	  
+	  
+<!-- ********************************************************************************************* -->
+  <event type="NUKE_READY_TO_FIRE" continuous="yes">
+    <!--Nuke armed -->
+    <timeblock mseconds="150">
+     	<setvalue index="238" value="255" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event>  
+	  
+	  <event type="NORMAL_CONDITION_1" continuous="yes" if="!NUKE_READY_TO_FIRE">
+    <!--Nuke armed -->
+    <timeblock mseconds="150">
+     	<setvalue index="238" value="0" change="0"/>	<!-- bright -->
+    </timeblock>
+	  </event> 
+  
+  
+  
+
+
+	<!-- ********************************************************************************************* -->
+	<!-- End copy range -->
+	<!-- ********************************************************************************************* -->
+
+
+
+	
+
+
+</DMX_CONTROL>
