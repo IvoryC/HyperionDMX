@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+
+  <!-- ********************************************************************************************* -->
+<!-- -->
+<!-- This profile is for the Room Ambiance.  Copy this into the master DMX commands file-->
+
+
+<!--  DMX ID MAP --> 
+<!-- 11-13 Warp Core section 1 (top), RGB -->
+<!-- 14-16 Warp Core section 2, RGB -->
+<!-- 17-19 Warp Core section 3, RGB -->
+<!-- 20-22 Warp Core section 4, RGB -->
+<!-- 23-25 Warp Core section 5, RGB -->
+<!-- 26-28 Warp Core section 6, RGB -->
+<!-- 29-31 Warp Core section 7 (bottom), RGB -->
+<!-- 32-34 Warp Core top add-on, RGB -->
+
+
+
+<!-- -->
+
+
+
+
+  <!-- ********************************************************************************************* -->
+
+
+
+
+
+
+
+
+  <!-- ********************************************************************************************* -->
+  <!-- Start copy range -->
+  <!-- ********************************************************************************************* -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- ALWAYS_ON, between games, just look cool -->
+<!-- no warp, pulsing blue light from all sections-->
+  <event type="ALWAYS_ON" continuous="yes">
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="105" change="-90"/>
+    <setvalue index="16" value="105" change="-90"/>
+    <setvalue index="19" value="105" change="-90"/>
+    <setvalue index="22" value="105" change="-90"/>
+    <setvalue index="25" value="105" change="-90"/>
+    <setvalue index="28" value="105" change="-90"/>
+    <setvalue index="31" value="105" change="-90"/>
+
+    </timeblock>
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="15" change="90"/>
+    <setvalue index="16" value="15" change="90"/>
+    <setvalue index="19" value="15" change="90"/>
+    <setvalue index="22" value="15" change="90"/>
+    <setvalue index="25" value="15" change="90"/>
+    <setvalue index="28" value="15" change="90"/>
+    <setvalue index="31" value="15" change="90"/>
+      
+    </timeblock>
+  </event>
+
+
+
+
+
+      <!-- ********************************************************************************************* -->
+      <!-- Warp Core background -->
+      <!-- ********************************************************************************************* --> 
+
+<!-- ********************************************************************************************* -->
+<!-- no warp, light blue light from all sections-->
+  <event type="NORMAL_CONDITION_1" continuous="yes">
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="30" change="0"/>
+    <setvalue index="16" value="30" change="0"/>
+    <setvalue index="19" value="30" change="0"/>
+    <setvalue index="22" value="30" change="0"/>
+    <setvalue index="25" value="30" change="0"/>
+    <setvalue index="28" value="30" change="0"/>
+    <setvalue index="31" value="30" change="0"/>
+
+    </timeblock>
+  </event>
+  <!-- -->
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core Background Nebula -->
+<!-- ********************************************************************************************* -->
+
+
+    <!-- Purple light background -->
+    <event type="WITHIN_NEBULA" continuous="yes">
+        <timeblock mseconds="1000">
+
+            <setvalue index="11" value="45" change="0"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+    </event>
+  <!-- --> 
+
+
+    <!-- Purple light comes up from the bottom -->
+    <event type="ENTERING_NEBULA" continuous="no">
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="0"/>
+            <setvalue index="29" value="0" change="255"/>
+            <!-- all green off -->
+            <setvalue index="12" value="0" change="0"/>
+            <setvalue index="15" value="0" change="0"/>
+            <setvalue index="18" value="0" change="0"/>
+            <setvalue index="21" value="0" change="0"/>
+            <setvalue index="24" value="0" change="0"/>
+            <setvalue index="27" value="0" change="0"/>
+            <setvalue index="30" value="0" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="255"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="255"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="255"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="255"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="255"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="255"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+
+    </event>
+<!-- -->
+
+
+
+    <!-- Purple goes away starting at the top -->
+    <event type="EXITING_NEBULA" continuous="no">
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="45" change="-255"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+            <!-- all green off -->
+            <setvalue index="12" value="0" change="0"/>
+            <setvalue index="15" value="0" change="0"/>
+            <setvalue index="18" value="0" change="0"/>
+            <setvalue index="21" value="0" change="0"/>
+            <setvalue index="24" value="0" change="0"/>
+            <setvalue index="27" value="0" change="0"/>
+            <setvalue index="30" value="0" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="45" change="-255"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="45" change="-255"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="45" change="-255"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="45" change="-255"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="45" change="-255"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="0"/>
+            <setvalue index="29" value="45" change="-255"/>
+            
+        </timeblock>
+    </event>
+<!-- -->
+
+
+
+
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core foreground -->
+<!-- ********************************************************************************************* --> 
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 1, single blue entity shifts from bottom to top -->
+  <event type="WARP_1" continuous="yes">
+    <timeblock mseconds="1000"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-220"/>
+    <setvalue index="13" value="30" change="220"/>
+
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-220"/>
+    <setvalue index="16" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-220"/>
+    <setvalue index="19" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-220"/>
+    <setvalue index="22" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-220"/>
+    <setvalue index="25" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-220"/>
+    <setvalue index="28" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-220"/>
+    <setvalue index="31" value="30" change="220"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 2, single blue entity shifts from bottom to top -->
+  <event type="WARP_2" continuous="yes">
+    <timeblock mseconds="500"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-440"/>
+    <setvalue index="13" value="30" change="440"/>
+
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-440"/>
+    <setvalue index="16" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-440"/>
+    <setvalue index="19" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-440"/>
+    <setvalue index="22" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-440"/>
+    <setvalue index="25" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-440"/>
+    <setvalue index="28" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-440"/>
+    <setvalue index="31" value="30" change="440"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 3, single blue entity shifts from bottom to top -->
+  <event type="WARP_3" continuous="yes">
+    <timeblock mseconds="100"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-220"/>
+    <setvalue index="13" value="30" change="220"/>
+
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-220"/>
+    <setvalue index="16" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-220"/>
+    <setvalue index="19" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-220"/>
+    <setvalue index="22" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-220"/>
+    <setvalue index="25" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-220"/>
+    <setvalue index="28" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-220"/>
+    <setvalue index="31" value="30" change="220"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 4, single blue entity shifts from bottom to top -->
+  <event type="WARP_4" continuous="yes">
+    <timeblock mseconds="50"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-2750"/>
+    <setvalue index="13" value="250" change="0"/>
+    <setvalue index="16" value="30" change="2750"/>
+
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-2750"/>
+    <setvalue index="16" value="250" change="0"/>
+    <setvalue index="19" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-2750"/>
+    <setvalue index="19" value="250" change="0"/>
+    <setvalue index="22" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-2750"/>
+    <setvalue index="22" value="250" change="0"/>
+    <setvalue index="25" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-2750"/>
+    <setvalue index="25" value="250" change="0"/>
+    <setvalue index="28" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-2750"/>
+    <setvalue index="28" value="250" change="0"/>
+    <setvalue index="31" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-2750"/>
+    <setvalue index="31" value="250" change="0"/>
+    <setvalue index="13" value="30" change="2750"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+
+      <!-- ********************************************************************************************* -->
+      <!-- Warp Core Tractored and Docked -->
+      <!-- ********************************************************************************************* -->       
+
+
+<!-- TRACTORED_FOR_DOCKED -->
+<!-- -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes">
+    <timeblock mseconds="600">
+
+    <setvalue index="12" value="135" change="-150"/>
+    <setvalue index="15" value="135" change="-150"/>
+    <setvalue index="18" value="135" change="-150"/>
+    <setvalue index="21" value="135" change="-150"/>
+    <setvalue index="24" value="135" change="-150"/>
+    <setvalue index="27" value="135" change="-150"/>
+    <setvalue index="30" value="135" change="-150"/>
+    <!-- all esle off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+    <setvalue index="34" value="0" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="600">
+
+    <setvalue index="12" value="45" change="150"/>
+    <setvalue index="15" value="45" change="150"/>
+    <setvalue index="18" value="45" change="150"/>
+    <setvalue index="21" value="45" change="150"/>
+    <setvalue index="24" value="45" change="150"/>
+    <setvalue index="27" value="45" change="150"/>
+    <setvalue index="30" value="45" change="150"/>
+    <!-- all esle off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+    <setvalue index="34" value="0" change="0"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+<!-- COMPLETELY_DOCKED -->
+<!-- -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+    <timeblock mseconds="500">
+
+    <setvalue index="12" value="255" change="0"/>
+    <setvalue index="15" value="255" change="0"/>
+    <setvalue index="18" value="255" change="0"/>
+    <setvalue index="21" value="255" change="0"/>
+    <setvalue index="24" value="255" change="0"/>
+    <setvalue index="27" value="255" change="0"/>
+    <setvalue index="30" value="255" change="0"/>
+    <!-- all else off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+
+    </timeblock>
+    
+  </event>
+<!-- -->
+
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core Events -->
+<!-- ********************************************************************************************* -->         
+
+
+<!-- -->
+  <event type="SOMETHING_HITS_PLAYER">
+    <timeblock mseconds="300">
+
+    <setvalue index="14" value="55" change="0"/>
+    <setvalue index="15" value="55" change="0"/>
+    <setvalue index="16" value="55" change="0"/>
+    <setvalue index="17" value="5" change="0"/>
+    <setvalue index="18" value="5" change="0"/>
+    <setvalue index="19" value="5" change="0"/>
+    <setvalue index="26" value="100" change="0"/>
+    <setvalue index="27" value="100" change="0"/>
+    <setvalue index="28" value="100" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="40">
+    <!-- turn last set off -->
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="15" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="17" value="0" change="0"/>
+    <setvalue index="18" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="27" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="100">
+    </timeblock>
+    <timeblock mseconds="100">
+
+    <setvalue index="11" value="55" change="0"/>
+    <setvalue index="12" value="55" change="0"/>
+    <setvalue index="13" value="55" change="0"/>
+    <setvalue index="17" value="5" change="0"/>
+    <setvalue index="18" value="5" change="0"/>
+    <setvalue index="19" value="5" change="0"/>
+    <setvalue index="26" value="100" change="0"/>
+    <setvalue index="27" value="100" change="0"/>
+    <setvalue index="28" value="100" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="40">
+
+    <setvalue index="20" value="80" change="0"/>
+    <setvalue index="21" value="80" change="0"/>
+    <setvalue index="22" value="80" change="0"/>
+    <setvalue index="23" value="80" change="0"/>
+    <setvalue index="24" value="80" change="0"/>
+    <setvalue index="25" value="80" change="0"/>
+
+    <!-- turn last set off -->
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="15" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="17" value="0" change="0"/>
+    <setvalue index="18" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="27" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+
+    </timeblock>
+
+    
+  </event>
+<!-- -->
+
+
+
+
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- End copy range -->
+<!-- ********************************************************************************************* -->
+
+
+
+
+
+</DMX_CONTROL>

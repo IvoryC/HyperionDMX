@@ -70,7 +70,7 @@ DMX = split(dmx, f=dmx$Console)
 # Read in the profile for each console
 # note: the order of the standard consoles does not matter, 
 # but Ambiance should be last so ship-wide events trump all.
-consoles = c("Communications", "Engineering", "Helm", "Science", "Weapons", "Ambiance")
+consoles = c("Communications", "Engineering", "Helm", "Science", "Weapons", "Ambiance", "WarpCore")
 consoleFiles = paste0("DMXcommands-", consoles, ".xml")
 separator = paste0("<!-- ", paste(rep("*", 100), collapse=""), " -->")
 allConsoles = ""

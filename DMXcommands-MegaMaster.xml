@@ -19,6 +19,30 @@
 <!--8 R value of Status indicator bars at the front of the room -->
 <!--9 G value of Status indicator bars at the front of the room -->
 <!--10 B value of Status indicator bars at the front of the room -->
+<!--11 R value of Warp Core - section 1 -->
+<!--12 G value of Warp Core - section 1 -->
+<!--13 B value of Warp Core - section 1 -->
+<!--14 R value of Warp Core - section 2 -->
+<!--15 G value of Warp Core - section 2 -->
+<!--16 B value of Warp Core - section 2 -->
+<!--17 R value of Warp Core - section 3 -->
+<!--18 G value of Warp Core - section 3 -->
+<!--19 B value of Warp Core - section 3 -->
+<!--20 R value of Warp Core - section 4 -->
+<!--21 G value of Warp Core - section 4 -->
+<!--22 B value of Warp Core - section 4 -->
+<!--23 R value of Warp Core - section 5 -->
+<!--24 G value of Warp Core - section 5 -->
+<!--25 B value of Warp Core - section 5 -->
+<!--26 R value of Warp Core - section 6 -->
+<!--27 G value of Warp Core - section 6 -->
+<!--28 B value of Warp Core - section 6 -->
+<!--29 R value of Warp Core - section 7 -->
+<!--30 G value of Warp Core - section 7 -->
+<!--31 B value of Warp Core - section 7 -->
+<!--32 R value of Warp Core - top -->
+<!--33 G value of Warp Core - top -->
+<!--34 B value of Warp Core - top -->
 <!--99 R value of front sheilds in ship status -->
 <!--100 G value of front sheilds in ship status -->
 <!--101 B value of front sheilds in ship status -->
@@ -145,7 +169,7 @@
 <setvalue index="105" value="255"  change="0"/>	<!-- R - rear sheilds in ship status -->
 <setvalue index="106" value="255"  change="0"/>	<!-- G - rear sheilds in ship status -->
 <setvalue index="107" value="255"  change="0"/>	<!-- B - rear sheilds in ship status -->
-<setvalue index="110" value="50"  change="0"/>	<!-- Red - RED ALERT -->
+<setvalue index="110" value="255"  change="0"/>	<!-- Red - RED ALERT -->
 <setvalue index="111" value="255"  change="0"/>	<!-- Red - Red Alert button -->
 <setvalue index="112" value="255"  change="0"/>	<!-- blue - outgoing transmissions -->
 <setvalue index="113" value="255"  change="0"/>	<!-- amber - enemy transmissions -->
@@ -444,7 +468,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -549,10 +572,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -800,10 +820,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -826,11 +842,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -1025,11 +1037,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
   
@@ -1376,7 +1384,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -1481,10 +1488,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -1732,10 +1736,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -1758,11 +1758,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -1957,11 +1953,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
 
@@ -2299,7 +2291,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -2404,10 +2395,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -2655,10 +2643,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -2681,11 +2665,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -2880,11 +2860,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
 
@@ -3324,7 +3300,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -3429,10 +3404,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -3680,10 +3652,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -3706,11 +3674,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -3905,11 +3869,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
  
@@ -4127,7 +4087,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -4232,10 +4191,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -4483,10 +4439,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -4509,11 +4461,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -4708,11 +4656,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
 
@@ -4759,10 +4703,11 @@
     <!-- pulsing light for laoding tube. -->
 
     <timeblock mseconds="1000">
-
      	<setvalue index="234" value="10" change="100"/>	<!-- loading torpedo tube -->
-
     </timeblock>
+	
+	
+	
 	  </event>	 
 
   <!-- ********************************************************************************************* -->
@@ -5632,7 +5577,6 @@
     </timeblock>
   </event>
 
-
 <!-- ********************************************************************************************* -->
   <event type="FRONT_SHIELD_40" continuous="yes">
 
@@ -5737,10 +5681,7 @@
     </timeblock>
   </event>
 
-
-
-
- 
+  
 			<!-- ******************************************************************* -->
 			<!-- Hull Integrity Block -->
 			<!-- ******************************************************************* -->
@@ -5988,10 +5929,6 @@
     </timeblock>
   </event>
 
-
-
-
-  
   
   			<!-- ******************************************************************* -->
 			<!-- Red Alert Block -->
@@ -6014,11 +5951,7 @@
     </timeblock>
   </event>	
   
-  
-  
-  
 
- 
 			<!-- ******************************************************************* -->
 			<!-- Event Cue Block -->
 			<!-- ******************************************************************* -->
@@ -6213,11 +6146,7 @@
 	    <timeblock mseconds="200"></timeblock>
   </event>
 
-
-
-
-
-
+  
 
 
   
@@ -6396,6 +6325,1334 @@
       
 
   </event>
+
+
+
+
+
+<!-- **************************************************************************************************** -->
+<!-- WarpCore -->
+<!-- **************************************************************************************************** -->
+
+			<!-- ******************************************************************* -->
+			<!-- Front Shield Block -->
+			<!-- ******************************************************************* -->
+
+  <!-- ***************************************************************************** -->
+  <event type="FRONT_SHIELD_LOW" continuous="yes">
+
+    <!-- if the game is running and the shields have less than 20, flicker red -->
+    <timeblock mseconds="4000">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="500">
+
+     	<setvalue index="1" value="255" change="-200"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="200">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="300">
+
+     	<setvalue index="1" value="30" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="100">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_LOW" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- if the game is running and the shields have less than 20, and are off, go dark -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="0" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_20" continuous="yes">
+
+    <!-- steady strong red light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_20" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft red light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="10" change="0"/>	<!-- Red value of front shields indicator -->
+		<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+        <setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->		
+
+    </timeblock>
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_40" continuous="yes">
+
+    <!-- steady strong orange light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="20" change="0"/>	<!-- Green value of front shields indicator -->
+	<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_40" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft orange light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="10" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="2" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_60" continuous="yes">
+
+    <!-- steady strong yellow light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="248" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="55" change="0"/>	<!-- Green value of front shields indicator -->
+	<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_60" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft yellow light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="49" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="4" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+
+    </timeblock>
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_80" continuous="yes">
+
+    <!-- steady strong yellow-green light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="100" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="55" change="0"/>	<!-- Green value of front shields indicator -->
+	<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_80" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft yellow-green light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="12" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="3" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+
+    </timeblock>
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_100" continuous="yes">
+
+    <!-- steady strong green light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="0" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="255" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_100" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft green light on the front shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="1" value="0" change="0"/>	<!-- Red value of front shields indicator -->
+		<setvalue index="2" value="10" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+
+    </timeblock>
+  </event>
+
+  
+			<!-- ******************************************************************* -->
+			<!-- Hull Integrity Block -->
+			<!-- ******************************************************************* -->
+
+  <!-- ********************************************************************************************* -->
+  <event type="HULL_INTEGRITY_40" continuous="yes">
+
+    <!-- steady red light on the ship indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="0" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="HULL_INTEGRITY_60" continuous="yes">
+
+    <!-- steady orange light on the ship indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="20" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="0" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+  </event>
+
+    <!-- ********************************************************************************************* -->
+  <event type="HULL_INTEGRITY_80" continuous="yes">
+
+    <!-- steady green light on the ship indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="4" value="0" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="255" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="0" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+  </event>
+
+    <!-- ********************************************************************************************* -->
+  <event type="HULL_INTEGRITY_100" continuous="yes">
+
+    <!-- steady blue light on the ship indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="4" value="0" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="255" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+  </event>
+
+
+  
+  
+  
+			<!-- ******************************************************************* -->
+			<!-- Rear Shield Block -->
+			<!-- ******************************************************************* -->
+
+    <!-- ***************************************************************************** -->
+  <event type="REAR_SHIELD_LOW" continuous="yes">
+
+    <!-- if the game is running and the shields have less than 20, flicker red -->
+    <timeblock mseconds="4000">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="500">
+
+     	<setvalue index="7" value="255" change="-200"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="200">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="300">
+
+     	<setvalue index="7" value="30" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	<timeblock mseconds="100">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_LOW" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- if the game is running and the shields have less than 20, and are off, go dark -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="0" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_20" continuous="yes">
+
+    <!-- steady strong red light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_20" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft red light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="10" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->		
+
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_40" continuous="yes">
+
+    <!-- steady strong orange light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="20" change="0"/>	<!-- Green value of rear shields indicator -->
+	<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_40" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft orange light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="10" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="2" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_60" continuous="yes">
+
+    <!-- steady strong yellow light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="248" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="55" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_60" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft yellow light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="30" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="50" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+
+    </timeblock>
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_80" continuous="yes">
+
+    <!-- steady strong yellow-green light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="100" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="55" change="0"/>	<!-- Green value of rear shields indicator -->
+	<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_80" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft yellow-green light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="12" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="3" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+
+    </timeblock>
+  </event>
+  
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_100" continuous="yes">
+
+    <!-- steady strong green light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="0" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="255" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+  </event>
+
+  <!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_100" continuous="yes" if="!PLAYER_SHIELDS_ON">
+
+    <!-- steady soft green light on the rear shields indicator -->
+    <timeblock mseconds="1000">
+
+     	<setvalue index="7" value="0" change="0"/>	<!-- Red value of rear shields indicator -->
+		<setvalue index="8" value="10" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+
+    </timeblock>
+  </event>
+
+  
+  			<!-- ******************************************************************* -->
+			<!-- Red Alert Block -->
+			<!-- ******************************************************************* -->
+  
+  <!-- ********************************************************************************************* -->
+  <event type="RED_ALERT" continuous="yes">
+
+    <!-- pulsing red light on the red alert indicator -->
+
+    <timeblock mseconds="2000">
+
+     	<setvalue index="10" value="100" change="-50"/>	<!-- Red value of red alert indicator -->
+
+    </timeblock>
+    <timeblock mseconds="2000">
+  	
+     	<setvalue index="10" value="0" change="50"/>	<!-- Red value of red alert indicator -->
+      
+    </timeblock>
+  </event>	
+  
+
+			<!-- ******************************************************************* -->
+			<!-- Event Cue Block -->
+			<!-- ******************************************************************* -->
+
+  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_FRONT_SHIELD_DAMAGE" if="FRONT_SHIELD_40">
+
+    <!-- flicker white light -->
+    <timeblock mseconds="80">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="255" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="255" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="255" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="255" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="255" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="255" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="255" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="255" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="255" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+  </event>
+
+<event type="PLAYER_TAKES_FRONT_SHIELD_DAMAGE" if="!FRONT_SHIELD_40">
+
+    <!-- flicker red light -->
+    <timeblock mseconds="80">
+
+     	<setvalue index="1" value="40" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="40" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="40" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="1" value="40" change="0"/>	<!-- Red value of front shields indicator -->
+     	<setvalue index="2" value="0" change="0"/>	<!-- Green value of front shields indicator -->
+		<setvalue index="3" value="0" change="0"/>	<!-- Blue value of front shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_REAR_SHIELD_DAMAGE" if="REAR_SHIELD_40">
+
+    <!-- flicker white light -->
+    <timeblock mseconds="80">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="255" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="255" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="255" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="255" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="255" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="255" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="255" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="255" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="255" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+  </event>
+
+<event type="PLAYER_TAKES_REAR_SHIELD_DAMAGE" if="!REAR_SHIELD_40">
+
+    <!-- flicker red light -->
+    <timeblock mseconds="80">
+
+     	<setvalue index="7" value="40" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="40" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="40" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+	<timeblock mseconds="80">
+
+     	<setvalue index="7" value="40" change="0"/>	<!-- Red value of rear shields indicator -->
+     	<setvalue index="8" value="0" change="0"/>	<!-- Green value of rear shields indicator -->
+		<setvalue index="9" value="0" change="0"/>	<!-- Blue value of rear shields indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="80"></timeblock>
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_INTERNAL_DAMAGE" >
+
+    <!-- flicker purple light -->
+    <timeblock mseconds="200">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="200" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="200"></timeblock>
+	<timeblock mseconds="200">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="255" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="200"></timeblock>
+	<timeblock mseconds="200">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="200" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="200"></timeblock>
+	<timeblock mseconds="200">
+
+     	<setvalue index="4" value="255" change="0"/>	<!-- Red value of ship status indicator -->
+     	<setvalue index="5" value="0" change="0"/>	<!-- Green value of ship status indicator -->
+		<setvalue index="6" value="255" change="0"/>	<!-- Blue value of ship status indicator -->
+      
+    </timeblock>
+	    <timeblock mseconds="200"></timeblock>
+  </event>
+
+  
+
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- ALWAYS_ON, between games, just look cool -->
+<!-- no warp, pulsing blue light from all sections-->
+  <event type="ALWAYS_ON" continuous="yes">
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="105" change="-90"/>
+    <setvalue index="16" value="105" change="-90"/>
+    <setvalue index="19" value="105" change="-90"/>
+    <setvalue index="22" value="105" change="-90"/>
+    <setvalue index="25" value="105" change="-90"/>
+    <setvalue index="28" value="105" change="-90"/>
+    <setvalue index="31" value="105" change="-90"/>
+
+    </timeblock>
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="15" change="90"/>
+    <setvalue index="16" value="15" change="90"/>
+    <setvalue index="19" value="15" change="90"/>
+    <setvalue index="22" value="15" change="90"/>
+    <setvalue index="25" value="15" change="90"/>
+    <setvalue index="28" value="15" change="90"/>
+    <setvalue index="31" value="15" change="90"/>
+      
+    </timeblock>
+  </event>
+
+
+
+
+
+      <!-- ********************************************************************************************* -->
+      <!-- Warp Core background -->
+      <!-- ********************************************************************************************* --> 
+
+<!-- ********************************************************************************************* -->
+<!-- no warp, light blue light from all sections-->
+  <event type="NORMAL_CONDITION_1" continuous="yes">
+    <timeblock mseconds="1000">
+
+    <setvalue index="13" value="30" change="0"/>
+    <setvalue index="16" value="30" change="0"/>
+    <setvalue index="19" value="30" change="0"/>
+    <setvalue index="22" value="30" change="0"/>
+    <setvalue index="25" value="30" change="0"/>
+    <setvalue index="28" value="30" change="0"/>
+    <setvalue index="31" value="30" change="0"/>
+
+    </timeblock>
+  </event>
+  <!-- -->
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core Background Nebula -->
+<!-- ********************************************************************************************* -->
+
+
+    <!-- Purple light background -->
+    <event type="WITHIN_NEBULA" continuous="yes">
+        <timeblock mseconds="1000">
+
+            <setvalue index="11" value="45" change="0"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+    </event>
+  <!-- --> 
+
+
+    <!-- Purple light comes up from the bottom -->
+    <event type="ENTERING_NEBULA" continuous="no">
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="0"/>
+            <setvalue index="29" value="0" change="255"/>
+            <!-- all green off -->
+            <setvalue index="12" value="0" change="0"/>
+            <setvalue index="15" value="0" change="0"/>
+            <setvalue index="18" value="0" change="0"/>
+            <setvalue index="21" value="0" change="0"/>
+            <setvalue index="24" value="0" change="0"/>
+            <setvalue index="27" value="0" change="0"/>
+            <setvalue index="30" value="0" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="255"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="255"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="255"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="255"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="255"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="255"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+
+    </event>
+<!-- -->
+
+
+
+    <!-- Purple goes away starting at the top -->
+    <event type="EXITING_NEBULA" continuous="no">
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="45" change="-255"/>
+            <setvalue index="14" value="45" change="0"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+            <!-- all green off -->
+            <setvalue index="12" value="0" change="0"/>
+            <setvalue index="15" value="0" change="0"/>
+            <setvalue index="18" value="0" change="0"/>
+            <setvalue index="21" value="0" change="0"/>
+            <setvalue index="24" value="0" change="0"/>
+            <setvalue index="27" value="0" change="0"/>
+            <setvalue index="30" value="0" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="45" change="-255"/>
+            <setvalue index="17" value="45" change="0"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="45" change="-255"/>
+            <setvalue index="20" value="45" change="0"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="45" change="-255"/>
+            <setvalue index="23" value="45" change="0"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="45" change="-255"/>
+            <setvalue index="26" value="45" change="0"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="45" change="-255"/>
+            <setvalue index="29" value="45" change="0"/>
+
+        </timeblock>
+        <timeblock mseconds="200">
+
+            <setvalue index="11" value="0" change="0"/>
+            <setvalue index="14" value="0" change="0"/>
+            <setvalue index="17" value="0" change="0"/>
+            <setvalue index="20" value="0" change="0"/>
+            <setvalue index="23" value="0" change="0"/>
+            <setvalue index="26" value="0" change="0"/>
+            <setvalue index="29" value="45" change="-255"/>
+            
+        </timeblock>
+    </event>
+<!-- -->
+
+
+
+
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core foreground -->
+<!-- ********************************************************************************************* --> 
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 1, single blue entity shifts from bottom to top -->
+  <event type="WARP_1" continuous="yes">
+    <timeblock mseconds="1000"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-220"/>
+    <setvalue index="13" value="30" change="220"/>
+
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-220"/>
+    <setvalue index="16" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-220"/>
+    <setvalue index="19" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-220"/>
+    <setvalue index="22" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-220"/>
+    <setvalue index="25" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-220"/>
+    <setvalue index="28" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="1000"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-220"/>
+    <setvalue index="31" value="30" change="220"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 2, single blue entity shifts from bottom to top -->
+  <event type="WARP_2" continuous="yes">
+    <timeblock mseconds="500"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-440"/>
+    <setvalue index="13" value="30" change="440"/>
+
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-440"/>
+    <setvalue index="16" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-440"/>
+    <setvalue index="19" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-440"/>
+    <setvalue index="22" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-440"/>
+    <setvalue index="25" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-440"/>
+    <setvalue index="28" value="30" change="440"/>
+      
+    </timeblock>
+    <timeblock mseconds="500"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-440"/>
+    <setvalue index="31" value="30" change="440"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 3, single blue entity shifts from bottom to top -->
+  <event type="WARP_3" continuous="yes">
+    <timeblock mseconds="100"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-220"/>
+    <setvalue index="13" value="30" change="220"/>
+
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-220"/>
+    <setvalue index="16" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-220"/>
+    <setvalue index="19" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-220"/>
+    <setvalue index="22" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-220"/>
+    <setvalue index="25" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-220"/>
+    <setvalue index="28" value="30" change="220"/>
+      
+    </timeblock>
+    <timeblock mseconds="100"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-220"/>
+    <setvalue index="31" value="30" change="220"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- warp 4, single blue entity shifts from bottom to top -->
+  <event type="WARP_4" continuous="yes">
+    <timeblock mseconds="50"><!-- section 7 - 1 -->
+
+    <setvalue index="31" value="250" change="-2750"/>
+    <setvalue index="13" value="250" change="0"/>
+    <setvalue index="16" value="30" change="2750"/>
+
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 1 - 2 -->
+
+    <setvalue index="13" value="250" change="-2750"/>
+    <setvalue index="16" value="250" change="0"/>
+    <setvalue index="19" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 2 - 3 -->
+
+    <setvalue index="16" value="250" change="-2750"/>
+    <setvalue index="19" value="250" change="0"/>
+    <setvalue index="22" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 3 - 4 -->
+
+    <setvalue index="19" value="250" change="-2750"/>
+    <setvalue index="22" value="250" change="0"/>
+    <setvalue index="25" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="22" value="250" change="-2750"/>
+    <setvalue index="25" value="250" change="0"/>
+    <setvalue index="28" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="25" value="250" change="-2750"/>
+    <setvalue index="28" value="250" change="0"/>
+    <setvalue index="31" value="30" change="2750"/>
+      
+    </timeblock>
+    <timeblock mseconds="50"><!-- section 4 - 5 -->
+
+    <setvalue index="28" value="250" change="-2750"/>
+    <setvalue index="31" value="250" change="0"/>
+    <setvalue index="13" value="30" change="2750"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+
+
+
+      <!-- ********************************************************************************************* -->
+      <!-- Warp Core Tractored and Docked -->
+      <!-- ********************************************************************************************* -->       
+
+
+<!-- TRACTORED_FOR_DOCKED -->
+<!-- -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes">
+    <timeblock mseconds="600">
+
+    <setvalue index="12" value="135" change="-150"/>
+    <setvalue index="15" value="135" change="-150"/>
+    <setvalue index="18" value="135" change="-150"/>
+    <setvalue index="21" value="135" change="-150"/>
+    <setvalue index="24" value="135" change="-150"/>
+    <setvalue index="27" value="135" change="-150"/>
+    <setvalue index="30" value="135" change="-150"/>
+    <!-- all esle off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+    <setvalue index="34" value="0" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="600">
+
+    <setvalue index="12" value="45" change="150"/>
+    <setvalue index="15" value="45" change="150"/>
+    <setvalue index="18" value="45" change="150"/>
+    <setvalue index="21" value="45" change="150"/>
+    <setvalue index="24" value="45" change="150"/>
+    <setvalue index="27" value="45" change="150"/>
+    <setvalue index="30" value="45" change="150"/>
+    <!-- all esle off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+    <setvalue index="34" value="0" change="0"/>
+      
+    </timeblock>
+  </event>
+<!-- -->
+
+<!-- COMPLETELY_DOCKED -->
+<!-- -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+    <timeblock mseconds="500">
+
+    <setvalue index="12" value="255" change="0"/>
+    <setvalue index="15" value="255" change="0"/>
+    <setvalue index="18" value="255" change="0"/>
+    <setvalue index="21" value="255" change="0"/>
+    <setvalue index="24" value="255" change="0"/>
+    <setvalue index="27" value="255" change="0"/>
+    <setvalue index="30" value="255" change="0"/>
+    <!-- all else off -->
+    <setvalue index="11" value="0" change="0"/>
+    <setvalue index="13" value="0" change="0"/>
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="20" value="0" change="0"/>
+    <setvalue index="22" value="0" change="0"/>
+    <setvalue index="23" value="0" change="0"/>
+    <setvalue index="25" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+    <setvalue index="29" value="0" change="0"/>
+    <setvalue index="31" value="0" change="0"/>
+    <setvalue index="32" value="0" change="0"/>
+
+    </timeblock>
+    
+  </event>
+<!-- -->
+
+
+
+
+
+<!-- ********************************************************************************************* -->
+<!-- Warp Core Events -->
+<!-- ********************************************************************************************* -->         
+
+
+<!-- -->
+  <event type="SOMETHING_HITS_PLAYER">
+    <timeblock mseconds="300">
+
+    <setvalue index="14" value="55" change="0"/>
+    <setvalue index="15" value="55" change="0"/>
+    <setvalue index="16" value="55" change="0"/>
+    <setvalue index="17" value="5" change="0"/>
+    <setvalue index="18" value="5" change="0"/>
+    <setvalue index="19" value="5" change="0"/>
+    <setvalue index="26" value="100" change="0"/>
+    <setvalue index="27" value="100" change="0"/>
+    <setvalue index="28" value="100" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="40">
+    <!-- turn last set off -->
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="15" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="17" value="0" change="0"/>
+    <setvalue index="18" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="27" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="100">
+    </timeblock>
+    <timeblock mseconds="100">
+
+    <setvalue index="11" value="55" change="0"/>
+    <setvalue index="12" value="55" change="0"/>
+    <setvalue index="13" value="55" change="0"/>
+    <setvalue index="17" value="5" change="0"/>
+    <setvalue index="18" value="5" change="0"/>
+    <setvalue index="19" value="5" change="0"/>
+    <setvalue index="26" value="100" change="0"/>
+    <setvalue index="27" value="100" change="0"/>
+    <setvalue index="28" value="100" change="0"/>
+
+    </timeblock>
+    <timeblock mseconds="40">
+
+    <setvalue index="20" value="80" change="0"/>
+    <setvalue index="21" value="80" change="0"/>
+    <setvalue index="22" value="80" change="0"/>
+    <setvalue index="23" value="80" change="0"/>
+    <setvalue index="24" value="80" change="0"/>
+    <setvalue index="25" value="80" change="0"/>
+
+    <!-- turn last set off -->
+    <setvalue index="14" value="0" change="0"/>
+    <setvalue index="15" value="0" change="0"/>
+    <setvalue index="16" value="0" change="0"/>
+    <setvalue index="17" value="0" change="0"/>
+    <setvalue index="18" value="0" change="0"/>
+    <setvalue index="19" value="0" change="0"/>
+    <setvalue index="26" value="0" change="0"/>
+    <setvalue index="27" value="0" change="0"/>
+    <setvalue index="28" value="0" change="0"/>
+
+    </timeblock>
+
+    
+  </event>
+<!-- -->
+
+
+
+
+
 
 
 
