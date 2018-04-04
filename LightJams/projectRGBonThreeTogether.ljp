@@ -1,0 +1,2396 @@
+<console>
+  <model>
+    <version>2.0</version>
+    <registrar>
+      <universes universeIdVersion="1">
+        <universe id="USB1">
+          <fixtures>
+            <fixture>
+              <id>WONE</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>172</dmxAddress>
+              <position>0</position>
+              <group>testGroup01</group>
+            </fixture>
+            <fixture>
+              <id>PWER</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>139</dmxAddress>
+              <position>2</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWES</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>140</dmxAddress>
+              <position>3</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWET</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>141</dmxAddress>
+              <position>4</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWEU</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>142</dmxAddress>
+              <position>5</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWEV</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>143</dmxAddress>
+              <position>6</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWEW</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>144</dmxAddress>
+              <position>7</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>PWEX</id>
+              <manufacturer>Hyperion</manufacturer>
+              <name>single</name>
+              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
+              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>145</dmxAddress>
+              <position>8</position>
+              <group>Enginering</group>
+            </fixture>
+            <fixture>
+              <id>WRPA</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>11</dmxAddress>
+              <position>8</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>14</dmxAddress>
+              <position>9</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPC</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>17</dmxAddress>
+              <position>10</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPD</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>20</dmxAddress>
+              <position>11</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPE</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>23</dmxAddress>
+              <position>12</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPF</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>26</dmxAddress>
+              <position>13</position>
+              <group>WARPCORE</group>
+            </fixture>
+            <fixture>
+              <id>WRPG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>29</dmxAddress>
+              <position>14</position>
+              <group>WARPCORE</group>
+            </fixture>
+          </fixtures>
+        </universe>
+      </universes>
+      <templates>
+        <template id="616f91f5-8d43-43a5-9cab-15879b45bb9b" revision="2" fileName="616f91f5-8d43-43a5-9cab-15879b45bb9b.xml">
+          <fixture>
+            <Id>616f91f5-8d43-43a5-9cab-15879b45bb9b</Id>
+            <Name>RGB-RAW</Name>
+            <Manufacturer>Generic</Manufacturer>
+            <CanOpenInEditor>True</CanOpenInEditor>
+            <version>1.00</version>
+            <revision>2</revision>
+            <Modes>
+              <mode id="320aa107-c189-4379-9ef8-6bb679c66405" name="Mode 1" description="">
+                <capabilities>
+                  <Dimmer name="Red" precision="1" />
+                  <Dimmer name="Green" precision="1" />
+                  <Dimmer name="Blue" precision="1" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="3">
+                      <channel offset="0" percent="100" />
+                      <channel offset="1" percent="0" />
+                      <channel offset="2" percent="0" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="3" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="3" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="3" />
+                  </action>
+                </actions>
+              </mode>
+            </Modes>
+          </fixture>
+        </template>
+        <template id="86b0d843-9ee0-42ee-9c8b-4b41d984c6fe" revision="3" fileName="86b0d843-9ee0-42ee-9c8b-4b41d984c6fe.xml">
+          <fixture>
+            <Id>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</Id>
+            <Name>single</Name>
+            <Manufacturer>Hyperion</Manufacturer>
+            <CanOpenInEditor>True</CanOpenInEditor>
+            <version>1.00</version>
+            <revision>3</revision>
+            <Modes>
+              <mode id="7fcb5c58-2b54-44fa-ad3e-615000c32d51" name="Mode 1" description="">
+                <capabilities>
+                  <Dimmer precision="1" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                </actions>
+              </mode>
+            </Modes>
+          </fixture>
+        </template>
+      </templates>
+    </registrar>
+    <sounds />
+    <acn>
+      <outputUniverseOffset>0</outputUniverseOffset>
+      <inputUniverseOffset>0</inputUniverseOffset>
+      <universes />
+      <inputUniverses />
+    </acn>
+    <kiNet>
+      <universes />
+    </kiNet>
+    <artnet ArtSync="False">
+      <inputSubnet>0</inputSubnet>
+      <outputSubnet>0</outputSubnet>
+      <inputUniverses />
+      <outputServer ArtSync="False">
+        <inputSubnet>0</inputSubnet>
+        <outputSubnet>0</outputSubnet>
+        <inputUniverses />
+      </outputServer>
+    </artnet>
+    <oscIn />
+    <oscOut>
+      <extraOutputs />
+    </oscOut>
+    <globalFormulas>
+      <speed>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>18.8679245283019</value>
+        <inputMode>0</inputMode>
+        <data />
+      </speed>
+      <intensity>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>100</value>
+        <inputMode>0</inputMode>
+        <data />
+      </intensity>
+    </globalFormulas>
+    <grids>
+      <nbGrids>8</nbGrids>
+      <root>
+        <name>root</name>
+        <activableID>
+        </activableID>
+        <activationFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>100</value>
+          <inputMode>0</inputMode>
+          <data />
+        </activationFormula>
+        <timeMultiplierFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>20</value>
+          <inputMode>0</inputMode>
+          <data />
+        </timeMultiplierFormula>
+        <grids />
+        <groups>
+          <group>
+            <name>Scene02</name>
+            <activableID>
+            </activableID>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>0</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <grids>
+              <grid zoomFactor="0.789999999999999">
+                <ID>f52ee386-db50-4be5-9c00-808f65eae306</ID>
+                <name>CircularFusedPurple</name>
+                <width>25</width>
+                <height>20</height>
+                <priority>0</priority>
+                <activableID>
+                </activableID>
+                <fadeInMode>0</fadeInMode>
+                <fadeOutMode>0</fadeOutMode>
+                <fadeInDelay>0.4</fadeInDelay>
+                <fadeOutDelay>1.2</fadeOutDelay>
+                <activationFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>100</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </activationFormula>
+                <timeMultiplierFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>20</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </timeMultiplierFormula>
+                <emitters>
+                  <emitter rangeShape="Lin">
+                    <direction>223</direction>
+                    <x>1</x>
+                    <y>1</y>
+                    <color>0</color>
+                    <delaySpeedProfile>2</delaySpeedProfile>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>100</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>music.2.band(4)</expression>
+                        <actAsVariable>False</actAsVariable>
+                        <value>0</value>
+                        <inputMode>2</inputMode>
+                        <data>
+                          <soundAnalyserIndex>1</soundAnalyserIndex>
+                          <band>3</band>
+                          <isOverview>False</isOverview>
+                          <valueMode>instant</valueMode>
+                        </data>
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>4.16666666666667</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>5.26315789473684</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                </emitters>
+                <receptors>
+                  <receptor>
+                    <x>3</x>
+                    <y>1</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>2</y>
+                    <fixtureId>PWER</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>2</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>2</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>3</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>4</y>
+                    <fixtureId>PWES</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>4</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>4</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>5</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>6</y>
+                    <fixtureId>PWET</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>6</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>14</x>
+                    <y>6</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>7</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>8</y>
+                    <fixtureId>PWEU</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>8</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>9</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>15</x>
+                    <y>9</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>10</y>
+                    <fixtureId>PWEV</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>10</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>11</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>15</x>
+                    <y>11</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>12</y>
+                    <fixtureId>PWEW</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>12</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>13</y>
+                    <fixtureId>WRPA</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>1</x>
+                    <y>14</y>
+                    <fixtureId>PWEX</fixtureId>
+                    <attributeId>dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>15</y>
+                    <fixtureId>WRPA</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>15</x>
+                    <y>15</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                </receptors>
+              </grid>
+            </grids>
+            <groups />
+          </group>
+          <group>
+            <name>group01</name>
+            <activableID>
+            </activableID>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>0</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <grids />
+            <groups>
+              <group>
+                <name>Scene03</name>
+                <activableID>
+                </activableID>
+                <activationFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>100</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </activationFormula>
+                <timeMultiplierFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>20</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </timeMultiplierFormula>
+                <grids>
+                  <grid zoomFactor="1">
+                    <ID>4b027dbb-2198-4379-9456-68496d197921</ID>
+                    <name>color</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>0</fadeInMode>
+                    <fadeOutMode>0</fadeOutMode>
+                    <fadeInDelay>0.4</fadeInDelay>
+                    <fadeOutDelay>0.4</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters />
+                    <receptors />
+                  </grid>
+                </grids>
+                <groups />
+              </group>
+            </groups>
+          </group>
+          <group>
+            <name>group02</name>
+            <activableID>
+            </activableID>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>0</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <grids />
+            <groups>
+              <group>
+                <name>Scene01</name>
+                <activableID>
+                </activableID>
+                <activationFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>100</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </activationFormula>
+                <timeMultiplierFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>20</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </timeMultiplierFormula>
+                <grids>
+                  <grid zoomFactor="1">
+                    <ID>568bf70f-c91a-40d6-ac99-f2858cbea7fa</ID>
+                    <name>fx01</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>1</fadeInMode>
+                    <fadeOutMode>1</fadeOutMode>
+                    <fadeInDelay>1</fadeInDelay>
+                    <fadeOutDelay>1</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters>
+                      <emitter rangeShape="Log">
+                        <direction>239</direction>
+                        <x>1</x>
+                        <y>0</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>trigger(music.1.low.beat,0.1,10,30,0.2)</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>0</soundAnalyserIndex>
+                              <band>1</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>cleanedBeat</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>21.6981132075472</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>4.16666666666667</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                    </emitters>
+                    <receptors>
+                      <receptor>
+                        <x>14</x>
+                        <y>1</y>
+                        <fixtureId>PWER</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>1</x>
+                        <y>4</y>
+                        <fixtureId>WONE</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>4</y>
+                        <fixtureId>PWES</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>6</y>
+                        <fixtureId>PWET</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>8</y>
+                        <fixtureId>PWEU</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>11</y>
+                        <fixtureId>PWEV</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>15</y>
+                        <fixtureId>PWEW</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>14</x>
+                        <y>19</y>
+                        <fixtureId>PWEX</fixtureId>
+                        <attributeId>dimmer</attributeId>
+                      </receptor>
+                    </receptors>
+                  </grid>
+                  <grid zoomFactor="1">
+                    <ID>80a2960c-6a91-4260-8dc9-cd79282c8c2c</ID>
+                    <name>Green</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>0</fadeInMode>
+                    <fadeOutMode>0</fadeOutMode>
+                    <fadeInDelay>0.4</fadeInDelay>
+                    <fadeOutDelay>0.4</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters>
+                      <emitter rangeShape="Lin">
+                        <direction>223</direction>
+                        <x>1</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.mid</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>2</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>4.16666666666667</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                    </emitters>
+                    <receptors>
+                      <receptor>
+                        <x>3</x>
+                        <y>1</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>3</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>5</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>7</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>9</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>11</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>13</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                    </receptors>
+                  </grid>
+                  <grid zoomFactor="1">
+                    <ID>61b81daf-febf-4e1d-a98c-b0496083c86f</ID>
+                    <name>Red</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>0</fadeInMode>
+                    <fadeOutMode>0</fadeOutMode>
+                    <fadeInDelay>0.4</fadeInDelay>
+                    <fadeOutDelay>0.4</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters>
+                      <emitter rangeShape="Lin">
+                        <direction>223</direction>
+                        <x>1</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.low</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>1</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>4.16666666666667</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                    </emitters>
+                    <receptors>
+                      <receptor>
+                        <x>3</x>
+                        <y>1</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>3</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>5</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>7</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>9</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>11</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>13</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                    </receptors>
+                  </grid>
+                  <grid zoomFactor="1">
+                    <ID>202917cb-8061-4983-906a-0b522c6e4b89</ID>
+                    <name>Blue</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>0</fadeInMode>
+                    <fadeOutMode>0</fadeOutMode>
+                    <fadeInDelay>0.4</fadeInDelay>
+                    <fadeOutDelay>0.4</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters>
+                      <emitter rangeShape="Lin">
+                        <direction>223</direction>
+                        <x>1</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.hi</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>3</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>4.16666666666667</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                    </emitters>
+                    <receptors>
+                      <receptor>
+                        <x>3</x>
+                        <y>1</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>3</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>5</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>7</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>9</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>11</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>13</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                    </receptors>
+                  </grid>
+                  <grid zoomFactor="1">
+                    <ID>90e0b8f2-926b-48b6-bc0a-2d3888e341e2</ID>
+                    <name>RGB</name>
+                    <width>25</width>
+                    <height>20</height>
+                    <priority>0</priority>
+                    <activableID>
+                    </activableID>
+                    <fadeInMode>0</fadeInMode>
+                    <fadeOutMode>0</fadeOutMode>
+                    <fadeInDelay>0.4</fadeInDelay>
+                    <fadeOutDelay>0.4</fadeOutDelay>
+                    <activationFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>100</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </activationFormula>
+                    <timeMultiplierFormula>
+                      <expression>
+                      </expression>
+                      <actAsVariable>True</actAsVariable>
+                      <value>20</value>
+                      <inputMode>0</inputMode>
+                      <data />
+                    </timeMultiplierFormula>
+                    <emitters>
+                      <emitter>
+                        <direction>255</direction>
+                        <x>0</x>
+                        <y>0</y>
+                        <color>0</color>
+                        <delaySpeedMultY>0</delaySpeedMultY>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>1.66</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                      <emitter rangeShape="Lin">
+                        <direction>2</direction>
+                        <x>3</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.low</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>1</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>12.5</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                      <emitter rangeShape="Lin">
+                        <direction>2</direction>
+                        <x>7</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.mid</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>2</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>29.1666666666667</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                      <emitter rangeShape="Lin">
+                        <direction>2</direction>
+                        <x>12</x>
+                        <y>1</y>
+                        <color>0</color>
+                        <delaySpeedProfile>2</delaySpeedProfile>
+                        <formulas>
+                          <formula>
+                            <name>internalEmitter</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>100</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>emitterconservationratio</name>
+                            <expression>music.2.hi</expression>
+                            <actAsVariable>False</actAsVariable>
+                            <value>0</value>
+                            <inputMode>2</inputMode>
+                            <data>
+                              <soundAnalyserIndex>1</soundAnalyserIndex>
+                              <band>3</band>
+                              <isOverview>True</isOverview>
+                              <valueMode>instant</valueMode>
+                            </data>
+                          </formula>
+                          <formula>
+                            <name>emitterspeed</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionX</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>50</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>positionY</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>5.26315789473684</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                          <formula>
+                            <name>waveAngle</name>
+                            <expression>
+                            </expression>
+                            <actAsVariable>True</actAsVariable>
+                            <value>0</value>
+                            <inputMode>0</inputMode>
+                            <data />
+                          </formula>
+                        </formulas>
+                      </emitter>
+                    </emitters>
+                    <receptors>
+                      <receptor>
+                        <x>3</x>
+                        <y>2</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>2</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>2</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>4</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>4</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>4</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>6</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>6</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>6</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>8</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>8</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>8</y>
+                        <fixtureId>WRPD</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>10</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>10</y>
+                        <fixtureId>WRPE</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>10</y>
+                        <fixtureId>WRPC</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>12</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>12</y>
+                        <fixtureId>WRPF</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>12</y>
+                        <fixtureId>WRPB</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>3</x>
+                        <y>14</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap1.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>7</x>
+                        <y>14</y>
+                        <fixtureId>WRPG</fixtureId>
+                        <attributeId>cap2.dimmer</attributeId>
+                      </receptor>
+                      <receptor>
+                        <x>12</x>
+                        <y>14</y>
+                        <fixtureId>WRPA</fixtureId>
+                        <attributeId>cap3.dimmer</attributeId>
+                      </receptor>
+                    </receptors>
+                  </grid>
+                </grids>
+                <groups />
+              </group>
+            </groups>
+          </group>
+          <group>
+            <name>group03</name>
+            <activableID>
+            </activableID>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>100</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <grids>
+              <grid zoomFactor="1">
+                <ID>7002fc86-4270-4d03-b796-fb6e28c72e19</ID>
+                <name>RGB02</name>
+                <width>25</width>
+                <height>20</height>
+                <priority>0</priority>
+                <activableID>
+                </activableID>
+                <fadeInMode>0</fadeInMode>
+                <fadeOutMode>0</fadeOutMode>
+                <fadeInDelay>0.4</fadeInDelay>
+                <fadeOutDelay>0.4</fadeOutDelay>
+                <activationFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>100</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </activationFormula>
+                <timeMultiplierFormula>
+                  <expression>
+                  </expression>
+                  <actAsVariable>True</actAsVariable>
+                  <value>20</value>
+                  <inputMode>0</inputMode>
+                  <data />
+                </timeMultiplierFormula>
+                <emitters>
+                  <emitter>
+                    <direction>255</direction>
+                    <x>0</x>
+                    <y>0</y>
+                    <color>0</color>
+                    <delaySpeedMultY>0</delaySpeedMultY>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>1.66</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>100</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                  <emitter rangeShape="Lin">
+                    <direction>2</direction>
+                    <x>3</x>
+                    <y>1</y>
+                    <color>0</color>
+                    <delaySpeedProfile>2</delaySpeedProfile>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>100</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>music.2.low</expression>
+                        <actAsVariable>False</actAsVariable>
+                        <value>0</value>
+                        <inputMode>2</inputMode>
+                        <data>
+                          <soundAnalyserIndex>1</soundAnalyserIndex>
+                          <band>1</band>
+                          <isOverview>True</isOverview>
+                          <valueMode>instant</valueMode>
+                        </data>
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>12.5</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>5.26315789473684</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                  <emitter rangeShape="Lin">
+                    <direction>2</direction>
+                    <x>7</x>
+                    <y>1</y>
+                    <color>0</color>
+                    <delaySpeedProfile>2</delaySpeedProfile>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>100</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>music.2.mid</expression>
+                        <actAsVariable>False</actAsVariable>
+                        <value>0</value>
+                        <inputMode>2</inputMode>
+                        <data>
+                          <soundAnalyserIndex>1</soundAnalyserIndex>
+                          <band>2</band>
+                          <isOverview>True</isOverview>
+                          <valueMode>instant</valueMode>
+                        </data>
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>29.1666666666667</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>5.26315789473684</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                  <emitter rangeShape="Lin">
+                    <direction>2</direction>
+                    <x>12</x>
+                    <y>1</y>
+                    <color>0</color>
+                    <delaySpeedProfile>2</delaySpeedProfile>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>100</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>music.2.hi</expression>
+                        <actAsVariable>False</actAsVariable>
+                        <value>0</value>
+                        <inputMode>2</inputMode>
+                        <data>
+                          <soundAnalyserIndex>1</soundAnalyserIndex>
+                          <band>3</band>
+                          <isOverview>True</isOverview>
+                          <valueMode>instant</valueMode>
+                        </data>
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>50</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>5.26315789473684</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                  <emitter>
+                    <direction>3</direction>
+                    <x>7</x>
+                    <y>13</y>
+                    <color>0</color>
+                    <formulas>
+                      <formula>
+                        <name>internalEmitter</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterconservationratio</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>emitterspeed</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionX</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>29.1666666666667</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>positionY</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>68.4210526315789</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                      <formula>
+                        <name>waveAngle</name>
+                        <expression>
+                        </expression>
+                        <actAsVariable>True</actAsVariable>
+                        <value>0</value>
+                        <inputMode>0</inputMode>
+                        <data />
+                      </formula>
+                    </formulas>
+                  </emitter>
+                </emitters>
+                <receptors>
+                  <receptor>
+                    <x>3</x>
+                    <y>2</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>2</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>4</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>4</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>5</y>
+                    <fixtureId>WRPG</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>6</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>6</y>
+                    <fixtureId>WRPF</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>6</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>7</y>
+                    <fixtureId>WRPE</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>8</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>8</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>8</y>
+                    <fixtureId>WRPD</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>9</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>10</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>10</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>10</y>
+                    <fixtureId>WRPC</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>7</x>
+                    <y>11</y>
+                    <fixtureId>WRPA</fixtureId>
+                    <attributeId>cap2.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>12</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>12</y>
+                    <fixtureId>WRPB</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>3</x>
+                    <y>14</y>
+                    <fixtureId>WRPA</fixtureId>
+                    <attributeId>cap1.dimmer</attributeId>
+                  </receptor>
+                  <receptor>
+                    <x>12</x>
+                    <y>14</y>
+                    <fixtureId>WRPA</fixtureId>
+                    <attributeId>cap3.dimmer</attributeId>
+                  </receptor>
+                </receptors>
+              </grid>
+            </grids>
+            <groups />
+          </group>
+          <group>
+            <name>group04</name>
+            <activableID>
+            </activableID>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>100</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <grids />
+            <groups />
+          </group>
+        </groups>
+      </root>
+    </grids>
+    <medias>
+      <slots />
+    </medias>
+    <colorPalette>
+      <items>
+        <item id="scene01 primary" name="scene01 primary" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 secondary" name="scene01 secondary" equidistant="False">
+          <colors>
+            <color h="20" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 tertiary" name="scene01 tertiary" equidistant="False">
+          <colors>
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 gradient" name="scene01 gradient" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 primary" name="scene02 primary" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 secondary" name="scene02 secondary" equidistant="False">
+          <colors>
+            <color h="80" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 tertiary" name="scene02 tertiary" equidistant="False">
+          <colors>
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 gradient" name="scene02 gradient" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 primary" name="scene03 primary" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 secondary" name="scene03 secondary" equidistant="False">
+          <colors>
+            <color h="140" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 tertiary" name="scene03 tertiary" equidistant="False">
+          <colors>
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 gradient" name="scene03 gradient" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 primary" name="scene04 primary" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 secondary" name="scene04 secondary" equidistant="False">
+          <colors>
+            <color h="200" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 tertiary" name="scene04 tertiary" equidistant="False">
+          <colors>
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 gradient" name="scene04 gradient" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 primary" name="scene05 primary" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 secondary" name="scene05 secondary" equidistant="False">
+          <colors>
+            <color h="260" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 tertiary" name="scene05 tertiary" equidistant="False">
+          <colors>
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 gradient" name="scene05 gradient" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 primary" name="scene06 primary" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 secondary" name="scene06 secondary" equidistant="False">
+          <colors>
+            <color h="320" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 tertiary" name="scene06 tertiary" equidistant="False">
+          <colors>
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 gradient" name="scene06 gradient" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+      </items>
+    </colorPalette>
+    <board>
+      <users />
+    </board>
+  </model>
+  <view>
+    <selectedGridId>7002fc86-4270-4d03-b796-fb6e28c72e19</selectedGridId>
+  </view>
+</console>
