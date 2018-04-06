@@ -1,0 +1,1514 @@
+<console>
+  <model>
+    <version>2.0</version>
+    <registrar>
+      <universes universeIdVersion="1">
+        <universe id="USB1">
+          <fixtures>
+            <fixture>
+              <id>COWG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>101</dmxAddress>
+              <position>2</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COAB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>105</dmxAddress>
+              <position>6</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COCG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>107</dmxAddress>
+              <position>8</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COGR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>111</dmxAddress>
+              <position>12</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COHR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>112</dmxAddress>
+              <position>13</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COIB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>113</dmxAddress>
+              <position>14</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COJA</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>114</dmxAddress>
+              <position>15</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COKB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>115</dmxAddress>
+              <position>16</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COLR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>116</dmxAddress>
+              <position>17</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COMG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>117</dmxAddress>
+              <position>18</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>CONR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>118</dmxAddress>
+              <position>19</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>COOG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>119</dmxAddress>
+              <position>20</position>
+              <group>Communications</group>
+            </fixture>
+            <fixture>
+              <id>ENAG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>131</dmxAddress>
+              <position>2</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENEB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>135</dmxAddress>
+              <position>6</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENGG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>137</dmxAddress>
+              <position>8</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENIR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>139</dmxAddress>
+              <position>10</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENJR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>140</dmxAddress>
+              <position>11</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENKR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>141</dmxAddress>
+              <position>12</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENLA</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>142</dmxAddress>
+              <position>13</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENMA</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>143</dmxAddress>
+              <position>14</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENNG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>144</dmxAddress>
+              <position>15</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENOG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>145</dmxAddress>
+              <position>16</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENPB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>146</dmxAddress>
+              <position>17</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENQY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>147</dmxAddress>
+              <position>18</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>ENRB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>148</dmxAddress>
+              <position>19</position>
+              <group>Engineering</group>
+            </fixture>
+            <fixture>
+              <id>HEEG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>161</dmxAddress>
+              <position>2</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEIB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>165</dmxAddress>
+              <position>6</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEKG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>167</dmxAddress>
+              <position>8</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEMR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>169</dmxAddress>
+              <position>10</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HENW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>170</dmxAddress>
+              <position>11</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEOB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>171</dmxAddress>
+              <position>12</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEPW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>172</dmxAddress>
+              <position>13</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEQB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>173</dmxAddress>
+              <position>14</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HERB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>174</dmxAddress>
+              <position>15</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HESB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>175</dmxAddress>
+              <position>16</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HETB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>176</dmxAddress>
+              <position>17</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEUY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>177</dmxAddress>
+              <position>18</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEVG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>178</dmxAddress>
+              <position>19</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEWR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>179</dmxAddress>
+              <position>20</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEXW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>180</dmxAddress>
+              <position>21</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEYR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>181</dmxAddress>
+              <position>22</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>HEZG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>182</dmxAddress>
+              <position>23</position>
+              <group>Helm</group>
+            </fixture>
+            <fixture>
+              <id>SCIG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>191</dmxAddress>
+              <position>2</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCMB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>195</dmxAddress>
+              <position>6</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCOG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>197</dmxAddress>
+              <position>8</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCQR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>199</dmxAddress>
+              <position>10</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCRW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>200</dmxAddress>
+              <position>11</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCSW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>201</dmxAddress>
+              <position>12</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCTY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>202</dmxAddress>
+              <position>13</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCUY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>203</dmxAddress>
+              <position>14</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCVY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>204</dmxAddress>
+              <position>15</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCWY</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>205</dmxAddress>
+              <position>16</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCXG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>206</dmxAddress>
+              <position>17</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCYG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>207</dmxAddress>
+              <position>18</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>SCZA</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>208</dmxAddress>
+              <position>19</position>
+              <group>Science</group>
+            </fixture>
+            <fixture>
+              <id>WEMG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>221</dmxAddress>
+              <position>2</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEQB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>225</dmxAddress>
+              <position>6</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WESG</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>227</dmxAddress>
+              <position>8</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEUR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>229</dmxAddress>
+              <position>10</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEXW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>232</dmxAddress>
+              <position>13</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEYB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>233</dmxAddress>
+              <position>14</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEZW</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>234</dmxAddress>
+              <position>15</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEAR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>235</dmxAddress>
+              <position>16</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEBR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>236</dmxAddress>
+              <position>17</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WECR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>237</dmxAddress>
+              <position>18</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEDR</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>238</dmxAddress>
+              <position>19</position>
+              <group>Weapons</group>
+            </fixture>
+            <fixture>
+              <id>WEER</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>239</dmxAddress>
+              <position>20</position>
+              <group>Weapons</group>
+            </fixture>
+          </fixtures>
+        </universe>
+      </universes>
+      <templates>
+        <template id="34ac5e5a-a771-4b2e-9e2b-8cb835024b20" revision="1" fileName="34ac5e5a-a771-4b2e-9e2b-8cb835024b20.xml">
+          <fixture>
+            <Id>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</Id>
+            <Name>Dimmer</Name>
+            <Manufacturer>Generic</Manufacturer>
+            <CanOpenInEditor>True</CanOpenInEditor>
+            <version>1.00</version>
+            <Modes>
+              <mode id="55e4a7f7-c35e-483a-b79a-6a98f2b33ad8" name="8 bits" description="">
+                <capabilities>
+                  <Dimmer precision="1" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="1">
+                      <channel offset="0" percent="70" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                </actions>
+              </mode>
+              <mode id="72f5933a-77ec-4ac2-956f-05638242218f" name="16 bits" description="">
+                <capabilities>
+                  <Dimmer byteOrder="msb" precision="2" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="2">
+                      <channel offset="0" percent="70" />
+                      <channel offset="1" percent="70" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="2" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="2" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="2" />
+                  </action>
+                </actions>
+              </mode>
+            </Modes>
+          </fixture>
+        </template>
+      </templates>
+    </registrar>
+    <sounds />
+    <acn>
+      <outputUniverseOffset>0</outputUniverseOffset>
+      <inputUniverseOffset>0</inputUniverseOffset>
+      <universes />
+      <inputUniverses />
+    </acn>
+    <kiNet>
+      <universes />
+    </kiNet>
+    <artnet ArtSync="False">
+      <inputSubnet>0</inputSubnet>
+      <outputSubnet>0</outputSubnet>
+      <inputUniverses />
+      <outputServer ArtSync="False">
+        <inputSubnet>0</inputSubnet>
+        <outputSubnet>0</outputSubnet>
+        <inputUniverses />
+      </outputServer>
+    </artnet>
+    <oscIn />
+    <oscOut>
+      <extraOutputs />
+    </oscOut>
+    <globalFormulas>
+      <speed>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>20</value>
+        <inputMode>0</inputMode>
+        <data />
+      </speed>
+      <intensity>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>100</value>
+        <inputMode>0</inputMode>
+        <data />
+      </intensity>
+    </globalFormulas>
+    <grids>
+      <nbGrids>1</nbGrids>
+      <root>
+        <name>root</name>
+        <activableID>
+        </activableID>
+        <activationFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>100</value>
+          <inputMode>0</inputMode>
+          <data />
+        </activationFormula>
+        <timeMultiplierFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>20</value>
+          <inputMode>0</inputMode>
+          <data />
+        </timeMultiplierFormula>
+        <grids>
+          <grid zoomFactor="1">
+            <ID>f3601a38-b732-4ff5-be48-10c87ec35f89</ID>
+            <name>ExampleGrid</name>
+            <width>230</width>
+            <height>10</height>
+            <priority>0</priority>
+            <activableID>
+            </activableID>
+            <fadeInMode>0</fadeInMode>
+            <fadeOutMode>0</fadeOutMode>
+            <fadeInDelay>0.4</fadeInDelay>
+            <fadeOutDelay>0.4</fadeOutDelay>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>100</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <emitters>
+              <emitter>
+                <direction>255</direction>
+                <x>52</x>
+                <y>1</y>
+                <color>0</color>
+                <delaySpeedMultY>0</delaySpeedMultY>
+                <formulas>
+                  <formula>
+                    <name>internalEmitter</name>
+                    <expression>trigger(music.1.beat,0.1,10,30,0.2)</expression>
+                    <actAsVariable>False</actAsVariable>
+                    <value>0</value>
+                    <inputMode>2</inputMode>
+                    <data>
+                      <soundAnalyserIndex>0</soundAnalyserIndex>
+                      <band>0</band>
+                      <isOverview>True</isOverview>
+                      <valueMode>cleanedBeat</valueMode>
+                    </data>
+                  </formula>
+                  <formula>
+                    <name>emitterconservationratio</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>100</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>emitterspeed</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>10.377358490566</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>positionX</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>22.707423580786</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>positionY</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>11.1111111111111</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>waveAngle</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>0</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                </formulas>
+              </emitter>
+            </emitters>
+            <receptors>
+              <receptor>
+                <x>42</x>
+                <y>2</y>
+                <fixtureId>WEDR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>60</x>
+                <y>2</y>
+                <fixtureId>HEZG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>63</x>
+                <y>2</y>
+                <fixtureId>HEXW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>67</x>
+                <y>2</y>
+                <fixtureId>HEWR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>84</x>
+                <y>2</y>
+                <fixtureId>SCVY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>86</x>
+                <y>2</y>
+                <fixtureId>SCUY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>88</x>
+                <y>2</y>
+                <fixtureId>SCWY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>96</x>
+                <y>2</y>
+                <fixtureId>SCSW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>114</x>
+                <y>2</y>
+                <fixtureId>CONR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>117</x>
+                <y>2</y>
+                <fixtureId>COOG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>4</x>
+                <y>3</y>
+                <fixtureId>ENGG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>18</x>
+                <y>3</y>
+                <fixtureId>ENRB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>29</x>
+                <y>3</y>
+                <fixtureId>WESG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>45</x>
+                <y>3</y>
+                <fixtureId>WEZW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>54</x>
+                <y>3</y>
+                <fixtureId>HEKG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>70</x>
+                <y>3</y>
+                <fixtureId>HEPW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>79</x>
+                <y>3</y>
+                <fixtureId>SCOG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>92</x>
+                <y>3</y>
+                <fixtureId>SCXG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>104</x>
+                <y>3</y>
+                <fixtureId>COCG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>120</x>
+                <y>3</y>
+                <fixtureId>COHR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>42</x>
+                <y>4</y>
+                <fixtureId>WECR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>59</x>
+                <y>4</y>
+                <fixtureId>HEQB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>62</x>
+                <y>4</y>
+                <fixtureId>HERB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>65</x>
+                <y>4</y>
+                <fixtureId>HESB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>67</x>
+                <y>4</y>
+                <fixtureId>HETB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>86</x>
+                <y>4</y>
+                <fixtureId>SCTY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>96</x>
+                <y>4</y>
+                <fixtureId>SCRW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>45</x>
+                <y>5</y>
+                <fixtureId>WEXW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>70</x>
+                <y>5</y>
+                <fixtureId>HENW</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>114</x>
+                <y>5</y>
+                <fixtureId>COLR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>117</x>
+                <y>5</y>
+                <fixtureId>COMG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>4</x>
+                <y>6</y>
+                <fixtureId>ENEB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>18</x>
+                <y>6</y>
+                <fixtureId>ENQY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>29</x>
+                <y>6</y>
+                <fixtureId>WEQB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>42</x>
+                <y>6</y>
+                <fixtureId>WEBR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>54</x>
+                <y>6</y>
+                <fixtureId>HEIB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>79</x>
+                <y>6</y>
+                <fixtureId>SCMB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>104</x>
+                <y>6</y>
+                <fixtureId>COAB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>45</x>
+                <y>7</y>
+                <fixtureId>WEYB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>70</x>
+                <y>7</y>
+                <fixtureId>HEOB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>4</x>
+                <y>8</y>
+                <fixtureId>ENAG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>9</x>
+                <y>8</y>
+                <fixtureId>ENIR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>12</x>
+                <y>8</y>
+                <fixtureId>ENJR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>14</x>
+                <y>8</y>
+                <fixtureId>ENKR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>15</x>
+                <y>8</y>
+                <fixtureId>ENLA</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>16</x>
+                <y>8</y>
+                <fixtureId>ENMA</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>17</x>
+                <y>8</y>
+                <fixtureId>ENNG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>19</x>
+                <y>8</y>
+                <fixtureId>ENOG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>20</x>
+                <y>8</y>
+                <fixtureId>ENPB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>29</x>
+                <y>8</y>
+                <fixtureId>WEMG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>34</x>
+                <y>8</y>
+                <fixtureId>WEUR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>38</x>
+                <y>8</y>
+                <fixtureId>WEER</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>42</x>
+                <y>8</y>
+                <fixtureId>WEAR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>54</x>
+                <y>8</y>
+                <fixtureId>HEEG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>59</x>
+                <y>8</y>
+                <fixtureId>HEMR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>62</x>
+                <y>8</y>
+                <fixtureId>HEUY</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>64</x>
+                <y>8</y>
+                <fixtureId>HEVG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>68</x>
+                <y>8</y>
+                <fixtureId>HEYR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>79</x>
+                <y>8</y>
+                <fixtureId>SCIG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>84</x>
+                <y>8</y>
+                <fixtureId>SCQR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>91</x>
+                <y>8</y>
+                <fixtureId>SCZA</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>93</x>
+                <y>8</y>
+                <fixtureId>SCYG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>104</x>
+                <y>8</y>
+                <fixtureId>COWG</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>109</x>
+                <y>8</y>
+                <fixtureId>COGR</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>112</x>
+                <y>8</y>
+                <fixtureId>COIB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>115</x>
+                <y>8</y>
+                <fixtureId>COJA</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>118</x>
+                <y>8</y>
+                <fixtureId>COKB</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+            </receptors>
+          </grid>
+        </grids>
+        <groups />
+      </root>
+    </grids>
+    <medias>
+      <slots />
+    </medias>
+    <colorPalette>
+      <items>
+        <item id="scene01 primary" name="scene01 primary" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 secondary" name="scene01 secondary" equidistant="False">
+          <colors>
+            <color h="20" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 tertiary" name="scene01 tertiary" equidistant="False">
+          <colors>
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 gradient" name="scene01 gradient" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 primary" name="scene02 primary" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 secondary" name="scene02 secondary" equidistant="False">
+          <colors>
+            <color h="80" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 tertiary" name="scene02 tertiary" equidistant="False">
+          <colors>
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 gradient" name="scene02 gradient" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 primary" name="scene03 primary" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 secondary" name="scene03 secondary" equidistant="False">
+          <colors>
+            <color h="140" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 tertiary" name="scene03 tertiary" equidistant="False">
+          <colors>
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 gradient" name="scene03 gradient" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 primary" name="scene04 primary" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 secondary" name="scene04 secondary" equidistant="False">
+          <colors>
+            <color h="200" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 tertiary" name="scene04 tertiary" equidistant="False">
+          <colors>
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 gradient" name="scene04 gradient" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 primary" name="scene05 primary" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 secondary" name="scene05 secondary" equidistant="False">
+          <colors>
+            <color h="260" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 tertiary" name="scene05 tertiary" equidistant="False">
+          <colors>
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 gradient" name="scene05 gradient" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 primary" name="scene06 primary" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 secondary" name="scene06 secondary" equidistant="False">
+          <colors>
+            <color h="320" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 tertiary" name="scene06 tertiary" equidistant="False">
+          <colors>
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 gradient" name="scene06 gradient" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+      </items>
+    </colorPalette>
+    <board>
+      <users />
+    </board>
+  </model>
+  <view>
+    <selectedGridId>f3601a38-b732-4ff5-be48-10c87ec35f89</selectedGridId>
+  </view>
+</console>
