@@ -1,0 +1,453 @@
+<console>
+  <model>
+    <version>2.0</version>
+    <registrar>
+      <universes universeIdVersion="1">
+        <universe id="USB1">
+          <fixtures>
+            <fixture>
+              <id>RGB</id>
+              <manufacturer>Generic</manufacturer>
+              <name>RGB-RAW</name>
+              <templateId>616f91f5-8d43-43a5-9cab-15879b45bb9b</templateId>
+              <mode>320aa107-c189-4379-9ef8-6bb679c66405</mode>
+              <modeName>Mode 1</modeName>
+              <dmxAddress>1</dmxAddress>
+              <position>18</position>
+              <group>Example</group>
+            </fixture>
+            <fixture>
+              <id>DIM</id>
+              <manufacturer>Generic</manufacturer>
+              <name>Dimmer</name>
+              <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
+              <mode>55e4a7f7-c35e-483a-b79a-6a98f2b33ad8</mode>
+              <modeName>8 bits</modeName>
+              <dmxAddress>0</dmxAddress>
+              <position>1</position>
+              <group>Example</group>
+            </fixture>
+          </fixtures>
+        </universe>
+      </universes>
+      <templates>
+        <template id="34ac5e5a-a771-4b2e-9e2b-8cb835024b20" revision="1" fileName="34ac5e5a-a771-4b2e-9e2b-8cb835024b20.xml">
+          <fixture>
+            <Id>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</Id>
+            <Name>Dimmer</Name>
+            <Manufacturer>Generic</Manufacturer>
+            <CanOpenInEditor>True</CanOpenInEditor>
+            <version>1.00</version>
+            <Modes>
+              <mode id="55e4a7f7-c35e-483a-b79a-6a98f2b33ad8" name="8 bits" description="">
+                <capabilities>
+                  <Dimmer precision="1" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="1">
+                      <channel offset="0" percent="70" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="1" />
+                  </action>
+                </actions>
+              </mode>
+              <mode id="72f5933a-77ec-4ac2-956f-05638242218f" name="16 bits" description="">
+                <capabilities>
+                  <Dimmer byteOrder="msb" precision="2" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="2">
+                      <channel offset="0" percent="70" />
+                      <channel offset="1" percent="70" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="2" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="2" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="2" />
+                  </action>
+                </actions>
+              </mode>
+            </Modes>
+          </fixture>
+        </template>
+        <template id="616f91f5-8d43-43a5-9cab-15879b45bb9b" revision="2" fileName="616f91f5-8d43-43a5-9cab-15879b45bb9b.xml">
+          <fixture>
+            <Id>616f91f5-8d43-43a5-9cab-15879b45bb9b</Id>
+            <Name>RGB-RAW</Name>
+            <Manufacturer>Generic</Manufacturer>
+            <CanOpenInEditor>True</CanOpenInEditor>
+            <version>1.00</version>
+            <revision>2</revision>
+            <Modes>
+              <mode id="320aa107-c189-4379-9ef8-6bb679c66405" name="Mode 1" description="">
+                <capabilities>
+                  <Dimmer name="Red" precision="1" />
+                  <Dimmer name="Green" precision="1" />
+                  <Dimmer name="Blue" precision="1" />
+                </capabilities>
+                <actions>
+                  <action name="Locate" duration="-1">
+                    <channels nbChannels="3">
+                      <channel offset="0" percent="100" />
+                      <channel offset="1" percent="0" />
+                      <channel offset="2" percent="0" />
+                    </channels>
+                  </action>
+                  <action name="Lamp on" duration="2">
+                    <channels nbChannels="3" />
+                  </action>
+                  <action name="Lamp off" duration="6">
+                    <channels nbChannels="3" />
+                  </action>
+                  <action name="Reset" duration="6">
+                    <channels nbChannels="3" />
+                  </action>
+                </actions>
+              </mode>
+            </Modes>
+          </fixture>
+        </template>
+      </templates>
+    </registrar>
+    <sounds />
+    <acn>
+      <outputUniverseOffset>0</outputUniverseOffset>
+      <inputUniverseOffset>0</inputUniverseOffset>
+      <universes />
+      <inputUniverses />
+    </acn>
+    <kiNet>
+      <universes />
+    </kiNet>
+    <artnet ArtSync="False">
+      <inputSubnet>0</inputSubnet>
+      <outputSubnet>0</outputSubnet>
+      <inputUniverses />
+      <outputServer ArtSync="False">
+        <inputSubnet>0</inputSubnet>
+        <outputSubnet>0</outputSubnet>
+        <inputUniverses />
+      </outputServer>
+    </artnet>
+    <oscIn />
+    <oscOut>
+      <extraOutputs />
+    </oscOut>
+    <globalFormulas>
+      <speed>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>20</value>
+        <inputMode>0</inputMode>
+        <data />
+      </speed>
+      <intensity>
+        <expression>0</expression>
+        <actAsVariable>True</actAsVariable>
+        <value>100</value>
+        <inputMode>0</inputMode>
+        <data />
+      </intensity>
+    </globalFormulas>
+    <grids>
+      <nbGrids>1</nbGrids>
+      <root>
+        <name>root</name>
+        <activableID>
+        </activableID>
+        <activationFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>100</value>
+          <inputMode>0</inputMode>
+          <data />
+        </activationFormula>
+        <timeMultiplierFormula>
+          <expression>
+          </expression>
+          <actAsVariable>True</actAsVariable>
+          <value>20</value>
+          <inputMode>0</inputMode>
+          <data />
+        </timeMultiplierFormula>
+        <grids>
+          <grid zoomFactor="1">
+            <ID>f3601a38-b732-4ff5-be48-10c87ec35f89</ID>
+            <name>ExampleGrid</name>
+            <width>25</width>
+            <height>20</height>
+            <priority>0</priority>
+            <activableID>
+            </activableID>
+            <fadeInMode>0</fadeInMode>
+            <fadeOutMode>0</fadeOutMode>
+            <fadeInDelay>0.4</fadeInDelay>
+            <fadeOutDelay>0.4</fadeOutDelay>
+            <activationFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>100</value>
+              <inputMode>0</inputMode>
+              <data />
+            </activationFormula>
+            <timeMultiplierFormula>
+              <expression>
+              </expression>
+              <actAsVariable>True</actAsVariable>
+              <value>20</value>
+              <inputMode>0</inputMode>
+              <data />
+            </timeMultiplierFormula>
+            <emitters>
+              <emitter>
+                <direction>255</direction>
+                <x>4</x>
+                <y>5</y>
+                <color>0</color>
+                <formulas>
+                  <formula>
+                    <name>internalEmitter</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>0</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>emitterconservationratio</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>0</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>emitterspeed</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>0</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>positionX</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>16.6666666666667</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>positionY</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>26.3157894736842</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                  <formula>
+                    <name>waveAngle</name>
+                    <expression>
+                    </expression>
+                    <actAsVariable>True</actAsVariable>
+                    <value>0</value>
+                    <inputMode>0</inputMode>
+                    <data />
+                  </formula>
+                </formulas>
+              </emitter>
+            </emitters>
+            <receptors>
+              <receptor>
+                <x>7</x>
+                <y>5</y>
+                <fixtureId>RGB</fixtureId>
+                <attributeId>cap3.dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>7</x>
+                <y>6</y>
+                <fixtureId>RGB</fixtureId>
+                <attributeId>cap2.dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>7</x>
+                <y>7</y>
+                <fixtureId>RGB</fixtureId>
+                <attributeId>cap1.dimmer</attributeId>
+              </receptor>
+              <receptor>
+                <x>7</x>
+                <y>9</y>
+                <fixtureId>DIM</fixtureId>
+                <attributeId>dimmer</attributeId>
+              </receptor>
+            </receptors>
+          </grid>
+        </grids>
+        <groups />
+      </root>
+    </grids>
+    <medias>
+      <slots />
+    </medias>
+    <colorPalette>
+      <items>
+        <item id="scene01 primary" name="scene01 primary" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 secondary" name="scene01 secondary" equidistant="False">
+          <colors>
+            <color h="20" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 tertiary" name="scene01 tertiary" equidistant="False">
+          <colors>
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene01 gradient" name="scene01 gradient" equidistant="False">
+          <colors>
+            <color h="0" s="1" l="0.5" />
+            <color h="40" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 primary" name="scene02 primary" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 secondary" name="scene02 secondary" equidistant="False">
+          <colors>
+            <color h="80" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 tertiary" name="scene02 tertiary" equidistant="False">
+          <colors>
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene02 gradient" name="scene02 gradient" equidistant="False">
+          <colors>
+            <color h="60" s="1" l="0.5" />
+            <color h="100" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 primary" name="scene03 primary" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 secondary" name="scene03 secondary" equidistant="False">
+          <colors>
+            <color h="140" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 tertiary" name="scene03 tertiary" equidistant="False">
+          <colors>
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene03 gradient" name="scene03 gradient" equidistant="False">
+          <colors>
+            <color h="120" s="1" l="0.5" />
+            <color h="160" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 primary" name="scene04 primary" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 secondary" name="scene04 secondary" equidistant="False">
+          <colors>
+            <color h="200" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 tertiary" name="scene04 tertiary" equidistant="False">
+          <colors>
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene04 gradient" name="scene04 gradient" equidistant="False">
+          <colors>
+            <color h="180" s="1" l="0.5" />
+            <color h="220" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 primary" name="scene05 primary" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 secondary" name="scene05 secondary" equidistant="False">
+          <colors>
+            <color h="260" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 tertiary" name="scene05 tertiary" equidistant="False">
+          <colors>
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene05 gradient" name="scene05 gradient" equidistant="False">
+          <colors>
+            <color h="240" s="1" l="0.5" />
+            <color h="280" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 primary" name="scene06 primary" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 secondary" name="scene06 secondary" equidistant="False">
+          <colors>
+            <color h="320" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 tertiary" name="scene06 tertiary" equidistant="False">
+          <colors>
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+        <item id="scene06 gradient" name="scene06 gradient" equidistant="False">
+          <colors>
+            <color h="300" s="1" l="0.5" />
+            <color h="340" s="1" l="0.5" />
+          </colors>
+        </item>
+      </items>
+    </colorPalette>
+    <board>
+      <users />
+    </board>
+  </model>
+  <view>
+    <selectedGridId>f3601a38-b732-4ff5-be48-10c87ec35f89</selectedGridId>
+  </view>
+</console>
