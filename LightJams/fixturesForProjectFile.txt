@@ -1,5 +1,5 @@
 <fixture>
-<id>COHG</id>
+<id>COWG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -10,7 +10,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COLB</id>
+<id>COAB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -21,7 +21,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>CONG</id>
+<id>COCG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -32,7 +32,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COHR</id>
+<id>COGR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -43,7 +43,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COIR</id>
+<id>COHR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -54,7 +54,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COJB</id>
+<id>COIB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -65,7 +65,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COKA</id>
+<id>COJA</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -76,7 +76,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COLB</id>
+<id>COKB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -87,7 +87,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COMR</id>
+<id>COLR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -98,7 +98,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>CONG</id>
+<id>COMG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -109,7 +109,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COOR</id>
+<id>CONR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -120,7 +120,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>COPG</id>
+<id>COOG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -131,7 +131,7 @@
 <group>Communications</group>
 </fixture>
 <fixture>
-<id>ENHG</id>
+<id>ENAG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -142,7 +142,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENLB</id>
+<id>ENEB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -153,7 +153,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENNG</id>
+<id>ENGG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -164,7 +164,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENPR</id>
+<id>ENIR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -175,7 +175,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENQR</id>
+<id>ENJR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -186,7 +186,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENHR</id>
+<id>ENKR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -197,7 +197,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENIA</id>
+<id>ENLA</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -208,7 +208,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENJA</id>
+<id>ENMA</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -219,7 +219,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENKG</id>
+<id>ENNG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -230,7 +230,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENLG</id>
+<id>ENOG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -241,7 +241,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENMB</id>
+<id>ENPB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -252,7 +252,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENNY</id>
+<id>ENQY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -263,7 +263,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>ENOB</id>
+<id>ENRB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -274,7 +274,7 @@
 <group>Engineering</group>
 </fixture>
 <fixture>
-<id>HEHG</id>
+<id>HEEG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -285,7 +285,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HELB</id>
+<id>HEIB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -296,7 +296,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HENG</id>
+<id>HEKG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -307,7 +307,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEPR</id>
+<id>HEMR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -318,7 +318,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEQW</id>
+<id>HENW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -329,7 +329,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEHB</id>
+<id>HEOB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -340,7 +340,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEIW</id>
+<id>HEPW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -351,7 +351,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEJB</id>
+<id>HEQB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -362,7 +362,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEKB</id>
+<id>HERB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -373,7 +373,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HELB</id>
+<id>HESB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -384,7 +384,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEMB</id>
+<id>HETB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -395,7 +395,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HENY</id>
+<id>HEUY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -406,7 +406,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEOG</id>
+<id>HEVG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -417,7 +417,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEPR</id>
+<id>HEWR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -428,7 +428,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEQW</id>
+<id>HEXW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -439,7 +439,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEHR</id>
+<id>HEYR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -450,7 +450,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>HEIG</id>
+<id>HEZG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -461,7 +461,7 @@
 <group>Helm</group>
 </fixture>
 <fixture>
-<id>SCHG</id>
+<id>SCIG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -472,7 +472,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCLB</id>
+<id>SCMB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -483,7 +483,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCNG</id>
+<id>SCOG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -494,7 +494,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCPR</id>
+<id>SCQR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -505,7 +505,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCQW</id>
+<id>SCRW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -516,7 +516,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCHW</id>
+<id>SCSW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -527,7 +527,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCIY</id>
+<id>SCTY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -538,7 +538,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCJY</id>
+<id>SCUY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -549,7 +549,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCKY</id>
+<id>SCVY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -560,7 +560,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCLY</id>
+<id>SCWY</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -571,7 +571,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCMG</id>
+<id>SCXG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -582,7 +582,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCNG</id>
+<id>SCYG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -593,7 +593,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>SCOA</id>
+<id>SCZA</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -604,7 +604,7 @@
 <group>Science</group>
 </fixture>
 <fixture>
-<id>WEHG</id>
+<id>WEMG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -615,7 +615,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WELB</id>
+<id>WEQB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -626,7 +626,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WENG</id>
+<id>WESG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -637,7 +637,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEPR</id>
+<id>WEUR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -648,7 +648,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEIW</id>
+<id>WEXW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -659,7 +659,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEJB</id>
+<id>WEYB</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -670,7 +670,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEKW</id>
+<id>WEZW</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -681,7 +681,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WELR</id>
+<id>WEAR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -692,7 +692,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEMR</id>
+<id>WEBR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -703,7 +703,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WENR</id>
+<id>WECR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -714,7 +714,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEOR</id>
+<id>WEDR</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>
@@ -725,7 +725,7 @@
 <group>Weapons</group>
 </fixture>
 <fixture>
-<id>WEPR</id>
+<id>WEER</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
 <templateId>34ac5e5a-a771-4b2e-9e2b-8cb835024b20</templateId>

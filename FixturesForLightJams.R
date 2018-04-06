@@ -13,7 +13,7 @@ lights$withinConsoleY = as.numeric(as.character(lights$withinConsoleY))
 # The one character in between just has to distinguish the 
 # lights that are the same color and on the same console.
 lights$ID = paste0(toupper(substr(lights$Console,1,2)), 
-                   LETTERS[8:17],
+                   LETTERS,
                    toupper(substr(lights$color,1,1)))
 lights$Model = "Hyperion single"
 lights$Mode = "Mode 1 (1ch.)"
@@ -99,13 +99,13 @@ midString2 = "</position>\n<group>"
 closeString = "</group>\n</fixture>"
 
 fixtureStrings = paste0(openString, 
-                        fixtures$ID, 
+                        consoles$ID, 
                         fixType["single"],
-                        fixtures$Address,
+                        consoles$Address,
                         midString1,
                         consoles$withinConsoleID,
                         midString2,
-                        fixtures$Group,
+                        consoles$Group,
                         closeString)
 
 projectFixtures = "LightJams/fixturesForProjectFile.txt"
@@ -136,7 +136,7 @@ consoles$withinConsoleY = as.numeric(as.character(consoles$withinConsoleY))
 
 consoleOrder = c(0,1,2,3,4)
 names(consoleOrder) = c("Engineering", "Weapons", "Helm", "Science", "Communications")
-consoles$Xshift = 100 * consoleOrder[as.character(consoles$Console)]
+consoles$Xshift = 50 * consoleOrder[as.character(consoles$Console)]
 consoles$absX = consoles$withinConsoleX + consoles$Xshift
 
 consoles$lightJamsX = floor(consoles$absX / 2)
@@ -147,7 +147,7 @@ receptorStrings = paste0(recOpenString,
                          mid1String,
                          consoles$lightJamsY,
                          mid2String,
-                         fixtures$ID,
+                         consoles$ID,
                          recCloseString)
 
 projectReceptors = "LightJams/receptorsForProjectFile.txt"
