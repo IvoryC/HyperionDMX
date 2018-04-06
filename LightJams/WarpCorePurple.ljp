@@ -6,94 +6,6 @@
         <universe id="USB1">
           <fixtures>
             <fixture>
-              <id>WONE</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>172</dmxAddress>
-              <position>0</position>
-              <group>testGroup01</group>
-            </fixture>
-            <fixture>
-              <id>PWER</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>139</dmxAddress>
-              <position>2</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWES</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>140</dmxAddress>
-              <position>3</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWET</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>141</dmxAddress>
-              <position>4</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWEU</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>142</dmxAddress>
-              <position>5</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWEV</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>143</dmxAddress>
-              <position>6</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWEW</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>144</dmxAddress>
-              <position>7</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
-              <id>PWEX</id>
-              <manufacturer>Hyperion</manufacturer>
-              <name>single</name>
-              <templateId>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</templateId>
-              <mode>7fcb5c58-2b54-44fa-ad3e-615000c32d51</mode>
-              <modeName>Mode 1</modeName>
-              <dmxAddress>145</dmxAddress>
-              <position>8</position>
-              <group>Enginering</group>
-            </fixture>
-            <fixture>
               <id>WRPA</id>
               <manufacturer>Generic</manufacturer>
               <name>RGB-RAW</name>
@@ -205,37 +117,6 @@
                   </action>
                   <action name="Reset" duration="6">
                     <channels nbChannels="3" />
-                  </action>
-                </actions>
-              </mode>
-            </Modes>
-          </fixture>
-        </template>
-        <template id="86b0d843-9ee0-42ee-9c8b-4b41d984c6fe" revision="3" fileName="86b0d843-9ee0-42ee-9c8b-4b41d984c6fe.xml">
-          <fixture>
-            <Id>86b0d843-9ee0-42ee-9c8b-4b41d984c6fe</Id>
-            <Name>single</Name>
-            <Manufacturer>Hyperion</Manufacturer>
-            <CanOpenInEditor>True</CanOpenInEditor>
-            <version>1.00</version>
-            <revision>3</revision>
-            <Modes>
-              <mode id="7fcb5c58-2b54-44fa-ad3e-615000c32d51" name="Mode 1" description="">
-                <capabilities>
-                  <Dimmer precision="1" />
-                </capabilities>
-                <actions>
-                  <action name="Locate" duration="-1">
-                    <channels nbChannels="1" />
-                  </action>
-                  <action name="Lamp on" duration="2">
-                    <channels nbChannels="1" />
-                  </action>
-                  <action name="Lamp off" duration="6">
-                    <channels nbChannels="1" />
-                  </action>
-                  <action name="Reset" duration="6">
-                    <channels nbChannels="1" />
                   </action>
                 </actions>
               </mode>
