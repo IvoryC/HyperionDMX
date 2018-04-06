@@ -212,7 +212,7 @@
 
     <!-- ********************************************************************************************* -->
 
-<!-- Purple light background -->
+<!-- Red spinning light for overheat condition -->
     <event type="SYSTEM_OVERHEATING" continuous="yes">
         <timeblock mseconds="1000">
 
