@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <DMX_CONTROL version="2.00">
 
@@ -43,6 +43,10 @@
 <!--32 R value of Warp Core - top -->
 <!--33 G value of Warp Core - top -->
 <!--34 B value of Warp Core - top -->
+<!--35 Purple value of Nebula light -->
+<!--36 R value of red spinning light -->
+<!--37 Purple value of Nebula light (backup) -->
+<!--38 R value of red spinning light (backup) -->
 <!--99 R value of front sheilds in ship status -->
 <!--100 G value of front sheilds in ship status -->
 <!--101 B value of front sheilds in ship status -->
@@ -160,6 +164,10 @@
 <setvalue index="8" value="255"  change="0"/>	<!-- R - Status indicator bars at the front of the room -->
 <setvalue index="9" value="255"  change="0"/>	<!-- G - Status indicator bars at the front of the room -->
 <setvalue index="10" value="255"  change="0"/>	<!-- B - Status indicator bars at the front of the room -->
+<setvalue index="35" value="0"  change="0"/>	<!-- Purple - Nebula light -->
+<setvalue index="36" value="0"  change="0"/>	<!-- R - red spinning light -->
+<setvalue index="37" value="0"  change="0"/>	<!-- Purple - Nebula light (backup) -->
+<setvalue index="38" value="0"  change="0"/>	<!-- R - red spinning light (backup) -->
 <setvalue index="99" value="255"  change="0"/>	<!-- R - front sheilds in ship status -->
 <setvalue index="100" value="255"  change="0"/>	<!-- G - front sheilds in ship status -->
 <setvalue index="101" value="255"  change="0"/>	<!-- B - front sheilds in ship status -->
@@ -279,6 +287,10 @@
 <setvalue index="8" value="255"  change="0"/>	<!-- R - Status indicator bars at the front of the room -->
 <setvalue index="9" value="255"  change="0"/>	<!-- G - Status indicator bars at the front of the room -->
 <setvalue index="10" value="255"  change="0"/>	<!-- B - Status indicator bars at the front of the room -->
+<setvalue index="35" value="0"  change="0"/>	<!-- Purple - Nebula light -->
+<setvalue index="36" value="0"  change="0"/>	<!-- R - red spinning light -->
+<setvalue index="37" value="0"  change="0"/>	<!-- Purple - Nebula light (backup) -->
+<setvalue index="38" value="0"  change="0"/>	<!-- R - red spinning light (backup) -->
 <setvalue index="99" value="255"  change="0"/>	<!-- R - front sheilds in ship status -->
 <setvalue index="100" value="255"  change="0"/>	<!-- G - front sheilds in ship status -->
 <setvalue index="101" value="255"  change="0"/>	<!-- B - front sheilds in ship status -->
@@ -6325,6 +6337,34 @@
       
 
   </event>
+
+    <!-- ********************************************************************************************* -->
+
+<!-- Purple light background -->
+    <event type="WITHIN_NEBULA" continuous="yes">
+        <timeblock mseconds="1000">
+
+            <setvalue index="35" value="255" change="0"/>
+            <setvalue index="37" value="255" change="0"/>
+
+        </timeblock>
+    </event>
+
+
+
+
+
+    <!-- ********************************************************************************************* -->
+
+<!-- Purple light background -->
+    <event type="SYSTEM_OVERHEATING" continuous="yes">
+        <timeblock mseconds="1000">
+
+            <setvalue index="36" value="255" change="0"/>
+            <setvalue index="38" value="255" change="0"/>
+
+        </timeblock>
+    </event>
 
 
 
