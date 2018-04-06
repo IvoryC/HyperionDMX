@@ -190,8 +190,8 @@
           <grid zoomFactor="1">
             <ID>f3601a38-b732-4ff5-be48-10c87ec35f89</ID>
             <name>ExampleGrid</name>
-            <width>25</width>
-            <height>20</height>
+            <width>230</width>
+            <height>10</height>
             <priority>0</priority>
             <activableID>
             </activableID>
