@@ -5,7 +5,7 @@
       <universes universeIdVersion="1">
         <universe id="USB1">
           <fixtures>
-          <fixture>
+<fixture>
 <id>COHG</id>
 <manufacturer>Generic</manufacturer>
 <name>Dimmer</name>
@@ -741,6 +741,7 @@
 <dmxAddress>239</dmxAddress>
 <position>20</position>
 <group>Weapons</group>
+</fixture>
           </fixtures>
         </universe>
       </universes>
@@ -994,7 +995,7 @@
               </emitter>
             </emitters>
             <receptors>
-            <receptor>
+<receptor>
 <x>204</x>
 <y>8</y>
 <fixtureId>COHG</fixtureId>
@@ -1396,12 +1397,6 @@
 <fixtureId>WEPR</fixtureId>
 <attributeId>dimmer</attributeId>
 </receptor>
-              <receptor>
-                <x>7</x>
-                <y>9</y>
-                <fixtureId>DIM</fixtureId>
-                <attributeId>dimmer</attributeId>
-              </receptor>
             </receptors>
           </grid>
         </grids>
